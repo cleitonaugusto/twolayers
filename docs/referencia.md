@@ -22,6 +22,10 @@ que fazer: aceitar as alterações rastreadas, excluir os comentários, inspecio
 partir do original. Primeiro vem o recado escondido para IA, depois o que vaza sigilo, por último as citações. A
 ferramenta nunca diz "pode enviar": ela aponta onde olhar e não substitui a revisão.
 
+Relatório HTML (`--html`) do exemplo [`peticao-com-vazamento`](../exemplos/peticao-com-vazamento/):
+
+![Relatório do verificar-peca: 6 riscos, entre eles número de processo impossível, texto oculto com instrução para IA, texto apagado que continua no arquivo, comentário interno e caminho do servidor nos metadados](img/relatorio-verificar-peca.png)
+
 O que `verificar-peca` confere:
 
 | item | verificação |
