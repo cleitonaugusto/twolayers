@@ -1,0 +1,7839 @@
+{
+ "arquivos": 683,
+ "lidos": 479,
+ "recusados_por_formato": 199,
+ "erros": 5,
+ "com_algum_risco": 130,
+ "risco_por_item": {
+  "T1": 86,
+  "V3": 23,
+  "V4": 15,
+  "V5": 9,
+  "V2": 7,
+  "C1": 3
+ },
+ "motivos_T1": {
+  "texto em cor branca": 98,
+  "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)": 43,
+  "fora da área da página": 24,
+  "modo de renderização invisível (Tr 3)": 12,
+  "fonte de 0.1 pt": 3,
+  "fonte de 2.0 pt": 2,
+  "fonte de 1.6 pt": 1,
+  "fonte de 0.8 pt": 1,
+  "fonte de 1.0 pt": 1,
+  "fonte de 1.1 pt": 1
+ },
+ "pdf_com_mais_de_uma_versao": 60,
+ "pdf_linearizados": 349,
+ "pdf_dados_apos_o_fim": 4,
+ "tempo_mediano_s": 2.53,
+ "tempo_p95_s": 23.56,
+ "resultados": [
+  {
+   "arquivo": "000001.doc",
+   "bytes": 40960,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000002.doc",
+   "bytes": 57856,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000003.doc",
+   "bytes": 55808,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000004.doc",
+   "bytes": 175616,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000005.doc",
+   "bytes": 180736,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000006.doc",
+   "bytes": 67584,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000007.doc",
+   "bytes": 179200,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000011.pdf",
+   "bytes": 31367,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.13
+  },
+  {
+   "arquivo": "000010.pdf",
+   "bytes": 120441,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.58
+  },
+  {
+   "arquivo": "000012.pdf",
+   "bytes": 22857,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.9
+  },
+  {
+   "arquivo": "000013.pdf",
+   "bytes": 38638,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Jan<31>2003 16:21 Mar 13, 2003Jkt 200001PO 00000Frm 00039Fmt 4703Sfmt 4703E:\\FR\\FM\\14MRN1.SGM14MRN1\"",
+     "pág. 2 — texto em cor branca: \"VerDate Jan<31>2003 16:21 Mar 13, 2003Jkt 200001PO 00000Frm 00040Fmt 4703Sfmt 4703E:\\FR\\FM\\14MRN1.SGM14MRN1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.91
+  },
+  {
+   "arquivo": "000009.pdf",
+   "bytes": 39586,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.42
+  },
+  {
+   "arquivo": "000015.pdf",
+   "bytes": 55964,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate jul<14>2003 17:25 May 24, 2005Jkt 205001PO 00000Frm 00050Fmt 4702Sfmt 4702E:\\FR\\FM\\25MYP1.SGM25MYP1\"",
+     "pág. 2 — texto em cor branca: \"VerDate jul<14>2003 17:25 May 24, 2005Jkt 205001PO 00000Frm 00051Fmt 4702Sfmt 4702E:\\FR\\FM\\25MYP1.SGM25MYP1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.95
+  },
+  {
+   "arquivo": "000019.pdf",
+   "bytes": 124152,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.32
+  },
+  {
+   "arquivo": "000016.pdf",
+   "bytes": 150586,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.75
+  },
+  {
+   "arquivo": "000020.pdf",
+   "bytes": 4755,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.24
+  },
+  {
+   "arquivo": "000021.pdf",
+   "bytes": 4521,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.2
+  },
+  {
+   "arquivo": "000018.pdf",
+   "bytes": 94424,
+   "achados": {
+    "V2": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "V2": [
+     "FreeText de giuv: \"Last 24 Hours\"",
+     "FreeText de giuv: \"Second Pilot?\"",
+     "FreeText de giuv: \"Toxicology Performed?\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.53
+  },
+  {
+   "arquivo": "000022.pdf",
+   "bytes": 21235,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.92
+  },
+  {
+   "arquivo": "000024.pdf",
+   "bytes": 44121,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.69
+  },
+  {
+   "arquivo": "000025.pdf",
+   "bytes": 197832,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.93
+  },
+  {
+   "arquivo": "000100.doc",
+   "bytes": 58368,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000101.doc",
+   "bytes": 107520,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000111.doc",
+   "bytes": 176640,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000113.doc",
+   "bytes": 14170112,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000114.doc",
+   "bytes": 19968,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000116.doc",
+   "bytes": 1330176,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000117.rtf",
+   "bytes": 33970,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000118.doc",
+   "bytes": 141312,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000119.doc",
+   "bytes": 96768,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000120.doc",
+   "bytes": 114176,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000121.doc",
+   "bytes": 30720,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000028.pdf",
+   "bytes": 205925,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.83
+  },
+  {
+   "arquivo": "000122.doc",
+   "bytes": 139264,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000124.doc",
+   "bytes": 6564352,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000125.doc",
+   "bytes": 28160,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000126.doc",
+   "bytes": 557568,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000127.doc",
+   "bytes": 32768,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000128.doc",
+   "bytes": 25600,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000130.doc",
+   "bytes": 1156608,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000131.doc",
+   "bytes": 566784,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000132.doc",
+   "bytes": 29184,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000137.pdf",
+   "bytes": 201776,
+   "achados": {
+    "T1": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.55
+  },
+  {
+   "arquivo": "000139.doc",
+   "bytes": 50176,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000140.pdf",
+   "bytes": 89719,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.87
+  },
+  {
+   "arquivo": "000141.pdf",
+   "bytes": 458941,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.87
+  },
+  {
+   "arquivo": "000135.pdf",
+   "bytes": 80961,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 4,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.24
+  },
+  {
+   "arquivo": "000026.pdf",
+   "bytes": 97475,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 11.01
+  },
+  {
+   "arquivo": "000142.pdf",
+   "bytes": 445338,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"WrackLines8:1\"",
+     "texto de versão anterior que não está na versão final: \"Spring/Summer2008\"",
+     "texto de versão anterior que não está na versão final: \"MindingThe3R’s:\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.5
+  },
+  {
+   "arquivo": "000144.doc",
+   "bytes": 36352,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000143.pdf",
+   "bytes": 5189989,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.48
+  },
+  {
+   "arquivo": "000145.pdf",
+   "bytes": 45234,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.43
+  },
+  {
+   "arquivo": "000148.doc",
+   "bytes": 565248,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000149.pdf",
+   "bytes": 972022,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 9 — modo de renderização invisível (Tr 3): \", NOAA OR&R 2000.)\"",
+     "pág. 10 — modo de renderização invisível (Tr 3): \", College Park, Maryland: Maryland Sea Grant College. pp. 223-277.\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.36
+  },
+  {
+   "arquivo": "000146.pdf",
+   "bytes": 3652867,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 6.46
+  },
+  {
+   "arquivo": "000151.doc",
+   "bytes": 19968,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000150.pdf",
+   "bytes": 665275,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 14 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"turbine outlet (50k)\"",
+     "pág. 14 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"after downpipe DOCs (25k)\"",
+     "pág. 14 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"after downpipe DOCs (50k)\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.59
+  },
+  {
+   "arquivo": "000147.pdf",
+   "bytes": 622082,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \":SECURITIESANDEXCHANGECOMMISSION\"",
+     "texto de versão anterior que não está na versão final: \"nJ!w~IDIl@~~~\"",
+     "texto de versão anterior que não está na versão final: \"AbriefsummaryoffinancialproposalsfiledwithandcctiensbytheS.E.C.\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 19.18
+  },
+  {
+   "arquivo": "000154.doc",
+   "bytes": 918016,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000153.pdf",
+   "bytes": 2189678,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.53
+  },
+  {
+   "arquivo": "000156.doc",
+   "bytes": 46080,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000155.pdf",
+   "bytes": 1339527,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.95
+  },
+  {
+   "arquivo": "000158.doc",
+   "bytes": 61952,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000157.pdf",
+   "bytes": 1656438,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 7.65
+  },
+  {
+   "arquivo": "000161.pdf",
+   "bytes": 26603,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.03
+  },
+  {
+   "arquivo": "000162.pdf",
+   "bytes": 244584,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"WORD BANK\"",
+     "pág. 1 — texto em cor branca: \"oceanservice.noaa.gov/education 1\"",
+     "pág. 2 — texto em cor branca: \"Subject Review Estuaries\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.06
+  },
+  {
+   "arquivo": "000152.pdf",
+   "bytes": 4406954,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 59 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"cagoul\"",
+     "pág. 62 — fora da área da página: \"KMSC-05-29 24.3ft\"",
+     "pág. 64 — fora da área da página: \"KMSC-10-35 18.6ft\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 33.71
+  },
+  {
+   "arquivo": "000164.pdf",
+   "bytes": 2590299,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.2
+  },
+  {
+   "arquivo": "000163.pdf",
+   "bytes": 1048821,
+   "achados": {
+    "T1": "REVISAR",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.53
+  },
+  {
+   "arquivo": "000029.pdf",
+   "erro": "travou (mais de 60 s)"
+  },
+  {
+   "arquivo": "000176.pdf",
+   "bytes": 74481,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.78
+  },
+  {
+   "arquivo": "000168.pdf",
+   "bytes": 552417,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.05
+  },
+  {
+   "arquivo": "000177.pdf",
+   "bytes": 300856,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.8
+  },
+  {
+   "arquivo": "000166.pdf",
+   "bytes": 238693,
+   "achados": {
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"84. Alder buckthorn - Roots (dried)\"",
+     "texto de versão anterior que não está na versão final: \"85. Alumroot\"",
+     "texto de versão anterior que não está na versão final: \"- Root\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 15.76
+  },
+  {
+   "arquivo": "000189.pdf",
+   "bytes": 90222,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.0
+  },
+  {
+   "arquivo": "000196.pdf",
+   "bytes": 40291,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate 11<MAY>200017:38 May 11, 2001Jkt 194001PO 00000Frm 00005Fmt 4700Sfmt 4700E:\\FR\\FM\\14MYR1.SGMpfrm04PsN: 14MYR1\"",
+     "pág. 2 — texto em cor branca: \"VerDate 11<MAY>200017:38 May 11, 2001Jkt 194001PO 00000Frm 00006Fmt 4700Sfmt 4700E:\\FR\\FM\\14MYR1.SGMpfrm04PsN: 14MYR1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.93
+  },
+  {
+   "arquivo": "000236.pdf",
+   "bytes": 12423,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.2
+  },
+  {
+   "arquivo": "000248.doc",
+   "bytes": 1015808,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000249.doc",
+   "bytes": 100352,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000250.doc",
+   "bytes": 55808,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000251.pdf",
+   "bytes": 10788,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\GainSrvr\\data\\rs0007.PDF",
+     "caminho interno: C:\\GainSrvr\\data\\rs0007.wpd",
+     "título: C:\\GainSrvr\\data\\rs0007.PDF"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.34
+  },
+  {
+   "arquivo": "000159.pdf",
+   "bytes": 4051537,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 34.56
+  },
+  {
+   "arquivo": "000253.doc",
+   "bytes": 91648,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000254.doc",
+   "bytes": 73728,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000255.doc",
+   "bytes": 74752,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000256.doc",
+   "bytes": 27648,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000257.rtf",
+   "bytes": 255469,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000258.rtf",
+   "bytes": 325316,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000259.doc",
+   "bytes": 93184,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000252.pdf",
+   "bytes": 200856,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.53
+  },
+  {
+   "arquivo": "000260.doc",
+   "bytes": 197120,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000261.doc",
+   "bytes": 1077248,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000263.pdf",
+   "bytes": 18247,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.58
+  },
+  {
+   "arquivo": "000264.doc",
+   "bytes": 51200,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000265.doc",
+   "bytes": 20992,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000266.pdf",
+   "bytes": 19021,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.38
+  },
+  {
+   "arquivo": "000267.doc",
+   "bytes": 337920,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000268.doc",
+   "bytes": 28160,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000262.pdf",
+   "bytes": 429655,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.37
+  },
+  {
+   "arquivo": "000269.pdf",
+   "bytes": 2066037,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.55
+  },
+  {
+   "arquivo": "000271.doc",
+   "bytes": 78848,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000187.pdf",
+   "bytes": 9122928,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 12.64
+  },
+  {
+   "arquivo": "000273.doc",
+   "bytes": 32768,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000274.doc",
+   "bytes": 53760,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000275.doc",
+   "bytes": 31232,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000276.doc",
+   "bytes": 232448,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000277.doc",
+   "bytes": 275456,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000278.doc",
+   "bytes": 78336,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000279.doc",
+   "bytes": 29184,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000272.pdf",
+   "bytes": 293665,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.67
+  },
+  {
+   "arquivo": "000281.doc",
+   "bytes": 247296,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000270.pdf",
+   "bytes": 70312,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\GAINSrvr\\data\\RS7044 Biofuel Annual_2007.PDF",
+     "título: C:\\GAINSrvr\\data\\RS7044 Biofuel Annual_2007.PDF",
+     "autor: Gains"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.37
+  },
+  {
+   "arquivo": "000283.doc",
+   "bytes": 72269,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000285.doc",
+   "bytes": 28672,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000286.doc",
+   "bytes": 83456,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000287.doc",
+   "bytes": 209920,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000280.pdf",
+   "bytes": 1174312,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"Высокопрочн\""
+    ],
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.73
+  },
+  {
+   "arquivo": "000316.pdf",
+   "bytes": 168192,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.84
+  },
+  {
+   "arquivo": "000314.pdf",
+   "bytes": 735686,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.31
+  },
+  {
+   "arquivo": "000324.pdf",
+   "bytes": 451440,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.15
+  },
+  {
+   "arquivo": "000325.pdf",
+   "bytes": 508018,
+   "achados": {
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"M.Bennett, J.G. Boissevain,\"",
+     "texto de versão anterior que não está na versão final: \"M.Brooks, T.A.Carey,\"",
+     "texto de versão anterior que não está na versão final: \"D.J.Clark, G. W. Hart,\""
+    ]
+   },
+   "versoes": 3,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 22.54
+  },
+  {
+   "arquivo": "000332.pdf",
+   "bytes": 262996,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.42
+  },
+  {
+   "arquivo": "000333.pdf",
+   "bytes": 74480,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.7
+  },
+  {
+   "arquivo": "000331.pdf",
+   "bytes": 431084,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 22.49
+  },
+  {
+   "arquivo": "000336.pdf",
+   "bytes": 130717,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.6
+  },
+  {
+   "arquivo": "000208.pdf",
+   "bytes": 5582269,
+   "achados": {
+    "T1": "RISCO",
+    "C1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 23 — texto em cor branca: \"Inﬂ uence of Dynamic Material Properties on Perturbation Growth in Solids Principal Investigators:\""
+    ],
+    "C1": [
+     "11121314151617181920 — dígito verificador não confere: este número não pode existir"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 42.52
+  },
+  {
+   "arquivo": "000337.pdf",
+   "bytes": 458008,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.38
+  },
+  {
+   "arquivo": "000339.pdf",
+   "bytes": 65206,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\Temp\\notes418EB6\\04cr108_bryanfelix_opn.wpd",
+     "autor: jjamison",
+     "título: C:\\Temp\\notes418EB6\\04cr108_bryanfelix_opn.wpd"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.72
+  },
+  {
+   "arquivo": "000340.pdf",
+   "bytes": 1664437,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.62
+  },
+  {
+   "arquivo": "000341.pdf",
+   "bytes": 109065,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.82
+  },
+  {
+   "arquivo": "000342.pdf",
+   "bytes": 41343,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.63
+  },
+  {
+   "arquivo": "000334.pdf",
+   "bytes": 206182,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 9.37
+  },
+  {
+   "arquivo": "000343.pdf",
+   "bytes": 64642,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: M:\\JBowler\\ISYS\\FELIX.WPD",
+     "título: M:\\JBowler\\ISYS\\FELIX.WPD"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.23
+  },
+  {
+   "arquivo": "000345.pdf",
+   "bytes": 42273,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.76
+  },
+  {
+   "arquivo": "000346.pdf",
+   "bytes": 252172,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 3,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.8
+  },
+  {
+   "arquivo": "000338.pdf",
+   "bytes": 614385,
+   "achados": {
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"AFFILIATIONS (alphabetical by author)\"",
+     "texto de versão anterior que não está na versão final: \"51. RODNEY MARTÍNEZ, Centro Internacional para la Investigación\""
+    ]
+   },
+   "versoes": 4,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 10.52
+  },
+  {
+   "arquivo": "000347.pdf",
+   "bytes": 572552,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.93
+  },
+  {
+   "arquivo": "000349.pdf",
+   "bytes": 39259,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.88
+  },
+  {
+   "arquivo": "000282.pdf",
+   "bytes": 3918750,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 46.83
+  },
+  {
+   "arquivo": "000350.pdf",
+   "bytes": 4668,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.19
+  },
+  {
+   "arquivo": "000352.pdf",
+   "bytes": 333582,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.17
+  },
+  {
+   "arquivo": "000353.pdf",
+   "bytes": 97361,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.37
+  },
+  {
+   "arquivo": "000354.pdf",
+   "bytes": 96138,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.44
+  },
+  {
+   "arquivo": "000348.pdf",
+   "bytes": 2300275,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 9.84
+  },
+  {
+   "arquivo": "000356.pdf",
+   "bytes": 23278,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.21
+  },
+  {
+   "arquivo": "000355.pdf",
+   "bytes": 233584,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.22
+  },
+  {
+   "arquivo": "000357.pdf",
+   "bytes": 476668,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.17
+  },
+  {
+   "arquivo": "000351.pdf",
+   "bytes": 256626,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 11.93
+  },
+  {
+   "arquivo": "000358.pdf",
+   "bytes": 273359,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 5.95
+  },
+  {
+   "arquivo": "000361.pdf",
+   "bytes": 37579,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.55
+  },
+  {
+   "arquivo": "000360.pdf",
+   "bytes": 23897,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: O:\\Judge Recio's Procedures.wpd",
+     "caminho interno: O:\\Judge Recio's Procedures.wpd]",
+     "título: O:\\Judge Recio's Procedures.wpd"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.96
+  },
+  {
+   "arquivo": "000362.pdf",
+   "bytes": 32528,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.59
+  },
+  {
+   "arquivo": "000364.pdf",
+   "bytes": 121566,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.75
+  },
+  {
+   "arquivo": "000365.pdf",
+   "bytes": 39757,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.46
+  },
+  {
+   "arquivo": "000344.pdf",
+   "bytes": 2620315,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 26.81
+  },
+  {
+   "arquivo": "000359.pdf",
+   "bytes": 1669388,
+   "achados": {
+    "T1": "RISCO",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 66 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"RMS ERROR: 6.7%\"",
+     "pág. 72 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Power Regression y = 69808x-1.5525 R2 = 0.9929\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 12.47
+  },
+  {
+   "arquivo": "000368.pdf",
+   "bytes": 12084,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.25
+  },
+  {
+   "arquivo": "000369.pdf",
+   "bytes": 11558,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.19
+  },
+  {
+   "arquivo": "000367.pdf",
+   "bytes": 135513,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.19
+  },
+  {
+   "arquivo": "000363.pdf",
+   "bytes": 178805,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 7.04
+  },
+  {
+   "arquivo": "000370.pdf",
+   "bytes": 45547,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.16
+  },
+  {
+   "arquivo": "000366.pdf",
+   "bytes": 139216,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.96
+  },
+  {
+   "arquivo": "000379.pdf",
+   "bytes": 213174,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.18
+  },
+  {
+   "arquivo": "000373.pdf",
+   "bytes": 422934,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"INSTRUCTIONS FOR THE 2008 DIVERSITY IMMIGRANT VISA PROGRAM (DV-2008)08)\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.47
+  },
+  {
+   "arquivo": "000381.pdf",
+   "bytes": 275349,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.07
+  },
+  {
+   "arquivo": "000380.pdf",
+   "bytes": 1163575,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.96
+  },
+  {
+   "arquivo": "000533.doc",
+   "bytes": 356864,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000444.pdf",
+   "bytes": 1148629,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.45
+  },
+  {
+   "arquivo": "000372.pdf",
+   "bytes": 1741033,
+   "achados": {
+    "C3": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 15.21
+  },
+  {
+   "arquivo": "000562.pdf",
+   "bytes": 46553,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: \\\\Ca6cin4\\opinions\\OPINS.TXT\\06a0098p-06.txt",
+     "título: \\\\Ca6cin4\\opinions\\OPINS.TXT\\06a0098p-06.txt"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.62
+  },
+  {
+   "arquivo": "000566.pdf",
+   "bytes": 70952,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.81
+  },
+  {
+   "arquivo": "000567.pdf",
+   "bytes": 16133,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.83
+  },
+  {
+   "arquivo": "000568.pdf",
+   "bytes": 35480,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.75
+  },
+  {
+   "arquivo": "000569.pdf",
+   "bytes": 35997,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.62
+  },
+  {
+   "arquivo": "000570.pdf",
+   "bytes": 29573,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: \\\\Ca6cin4\\opinions\\OPINS.TXT\\05a0441p-06.txt",
+     "título: \\\\Ca6cin4\\opinions\\OPINS.TXT\\05a0441p-06.txt"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.85
+  },
+  {
+   "arquivo": "000572.pdf",
+   "bytes": 97945,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.21
+  },
+  {
+   "arquivo": "000571.pdf",
+   "bytes": 360396,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.54
+  },
+  {
+   "arquivo": "000577.pdf",
+   "bytes": 9224,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.17
+  },
+  {
+   "arquivo": "000574.pdf",
+   "bytes": 179980,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.28
+  },
+  {
+   "arquivo": "000580.pdf",
+   "bytes": 42629,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.07
+  },
+  {
+   "arquivo": "000547.pdf",
+   "bytes": 683857,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 7 — fonte de 1.6 pt: \"GANGTOK\"",
+     "pág. 7 — fonte de 2.0 pt: \"PATNA\"",
+     "pág. 7 — fonte de 2.0 pt: \"GANDHINAGAR\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 14.38
+  },
+  {
+   "arquivo": "000582.pdf",
+   "bytes": 379591,
+   "achados": {
+    "T1": "REVISAR",
+    "T2": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.91
+  },
+  {
+   "arquivo": "000578.pdf",
+   "bytes": 351558,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 6.88
+  },
+  {
+   "arquivo": "000581.pdf",
+   "bytes": 73400,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.45
+  },
+  {
+   "arquivo": "000585.pdf",
+   "bytes": 75509,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.01
+  },
+  {
+   "arquivo": "000583.pdf",
+   "bytes": 225706,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"ientists at the Roman\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.85
+  },
+  {
+   "arquivo": "000586.pdf",
+   "bytes": 48456,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug 31 2005 03:41 Jun 20, 2008Jkt 069060PO 00000Frm 00054Fmt 4624Sfmt 0634E:\\CR\\FM\\G19JN6.045S19JNPT1 E T A N E S h t i w 9 6 C P 1 D O R P n o l l e b j\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.81
+  },
+  {
+   "arquivo": "000587.pdf",
+   "bytes": 14474,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.46
+  },
+  {
+   "arquivo": "000371.pdf",
+   "bytes": 282008,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"National Park Service\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 34.16
+  },
+  {
+   "arquivo": "000590.pdf",
+   "bytes": 205481,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.82
+  },
+  {
+   "arquivo": "000591.pdf",
+   "bytes": 6349,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.36
+  },
+  {
+   "arquivo": "000592.pdf",
+   "bytes": 99895,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.2
+  },
+  {
+   "arquivo": "000589.pdf",
+   "bytes": 305050,
+   "achados": {
+    "C3": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.1
+  },
+  {
+   "arquivo": "000588.pdf",
+   "bytes": 110355,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.89
+  },
+  {
+   "arquivo": "000594.pdf",
+   "bytes": 109194,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.61
+  },
+  {
+   "arquivo": "000596.pdf",
+   "bytes": 61982,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.24
+  },
+  {
+   "arquivo": "000605.pdf",
+   "bytes": 20115,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: P:\\CHAMBERS\\Decisions - Entire Text\\Decisions - Entire Text\\Wood cln 3-15-04 decision.wpd",
+     "título: P:\\CHAMBERS\\Decisions - Entire Text\\Decisions - Entire Text\\Wood cln 3-15-04 decision.wpd",
+     "autor: SHans"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.79
+  },
+  {
+   "arquivo": "000593.pdf",
+   "bytes": 51727,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.93
+  },
+  {
+   "arquivo": "000606.pdf",
+   "bytes": 9910,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: H:\\My Documents\\Web Documents\\Letters\\IH.wpd]",
+     "assunto: Determination Letter",
+     "título: Intermountain Health Care/McKay-Dee Hospital Center"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.32
+  },
+  {
+   "arquivo": "000610.pdf",
+   "bytes": 33298,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\WINDOWS\\Temporary Internet Files\\OLKF231\\Intermountain Healthcare McKay Dee determlet.wpd]",
+     "assunto: Determination Letter",
+     "título: Intermountain Health Care - McKay-Dee Hospital Center"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.51
+  },
+  {
+   "arquivo": "000618.pdf",
+   "bytes": 58435,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.05
+  },
+  {
+   "arquivo": "000628.pdf",
+   "bytes": 376269,
+   "achados": {
+    "C1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "C1": [
+     "19353436900580548977 — dígito verificador não confere: este número não pode existir",
+     "19354421600473268825 — dígito verificador não confere: este número não pode existir",
+     "19355504300435251634 — dígito verificador não confere: este número não pode existir"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.11
+  },
+  {
+   "arquivo": "000584.pdf",
+   "bytes": 1505718,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate 11-MAY-200017:38 Jun 29, 2005Jkt 000000PO 00000Frm 00001Fmt 5011Sfmt 501121981.TXTSBANK4PsN: SBANK4\"",
+     "pág. 2 — texto em cor branca: \"VerDate 11-MAY-200017:38 Jun 29, 2005Jkt 000000PO 00000Frm 00002Fmt 0486Sfmt 048621981.TXTSBANK4PsN: SBANK4\"",
+     "pág. 3 — texto em cor branca: \"VerDate 11-MAY-200017:38 Jun 29, 2005Jkt 000000PO 00000Frm 00003Fmt 5904Sfmt 590421981.TXTSBANK4PsN: SBANK4\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 19.29
+  },
+  {
+   "arquivo": "000629.pdf",
+   "bytes": 303658,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.0
+  },
+  {
+   "arquivo": "000632.pdf",
+   "bytes": 51231,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.26
+  },
+  {
+   "arquivo": "000663.pdf",
+   "bytes": 7837,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.14
+  },
+  {
+   "arquivo": "000630.pdf",
+   "bytes": 290656,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 7.7
+  },
+  {
+   "arquivo": "000631.pdf",
+   "bytes": 316727,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.55
+  },
+  {
+   "arquivo": "000672.pdf",
+   "bytes": 1101626,
+   "achados": {
+    "C3": "REVISAR",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"E-mail: rim@bnl.gov\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.72
+  },
+  {
+   "arquivo": "000675.doc",
+   "bytes": 124416,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000676.pdf",
+   "bytes": 51485,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.23
+  },
+  {
+   "arquivo": "000677.doc",
+   "bytes": 1350144,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000678.doc",
+   "bytes": 29184,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000686.doc",
+   "bytes": 35840,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000687.doc",
+   "bytes": 64000,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000691.doc",
+   "bytes": 59392,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000693.doc",
+   "bytes": 59904,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000695.doc",
+   "bytes": 25088,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000696.doc",
+   "bytes": 154624,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000701.doc",
+   "bytes": 21504,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000705.doc",
+   "bytes": 423936,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000706.doc",
+   "bytes": 34304,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000707.doc",
+   "bytes": 84480,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000671.pdf",
+   "bytes": 867979,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 11.69
+  },
+  {
+   "arquivo": "000738.pdf",
+   "bytes": 18952,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.47
+  },
+  {
+   "arquivo": "000739.pdf",
+   "bytes": 2585410,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.69
+  },
+  {
+   "arquivo": "000742.pdf",
+   "bytes": 18530,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.33
+  },
+  {
+   "arquivo": "000737.pdf",
+   "bytes": 3613556,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 9 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"ESMD Broad Agency Announcement | Lunar Surface Systems Concepts Studies | June 6, 20089\"",
+     "pág. 10 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"ESMD Broad Agency Announcement | Lunar Surface Systems Concepts Studies | June 6, 200810\"",
+     "pág. 12 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"ESMD Broad Agency Announcement | Lunar Surface Systems Concepts Studies | June 6, 200812\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 10.25
+  },
+  {
+   "arquivo": "000595.pdf",
+   "bytes": 4090732,
+   "achados": {
+    "T1": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 37.1
+  },
+  {
+   "arquivo": "000744.pdf",
+   "bytes": 2006417,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 10 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Lunar Orbit Assembly\"",
+     "pág. 10 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"In-Space Crew Transport\"",
+     "pág. 10 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Crew Lander\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.13
+  },
+  {
+   "arquivo": "000745.pdf",
+   "bytes": 51665,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.96
+  },
+  {
+   "arquivo": "000747.pdf",
+   "bytes": 67234,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.35
+  },
+  {
+   "arquivo": "000748.pdf",
+   "bytes": 296356,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.63
+  },
+  {
+   "arquivo": "000750.pdf",
+   "bytes": 328238,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.71
+  },
+  {
+   "arquivo": "000751.pdf",
+   "bytes": 384101,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fonte de 0.8 pt: \"QuickTime™ and a Sorenson Video 3 decompressor are needed to see this picture. QuickTime™ and a Sorenson Video 3 decompressor are needed to see this picture. QuickTime™ and a Sorenson Video 3 decompre\"",
+     "pág. 2 — fonte de 1.0 pt: \"QuickTime™ and a Sorenson Video 3 decompressor are needed to see this picture.\"",
+     "pág. 2 — fonte de 1.1 pt: \"QuickTime™ and a Sorenson Video 3 decompressor are needed to see this picture. QuickTime™ and a Sorenson Video 3 decompressor are needed to see this picture.\""
+    ],
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)",
+     "ação Launch (abre programa, importa ou envia dados)",
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.66
+  },
+  {
+   "arquivo": "000752.pdf",
+   "bytes": 496878,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.35
+  },
+  {
+   "arquivo": "000746.pdf",
+   "bytes": 574613,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.21
+  },
+  {
+   "arquivo": "000753.pdf",
+   "bytes": 160991,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.39
+  },
+  {
+   "arquivo": "000759.doc",
+   "bytes": 1502208,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000757.pdf",
+   "bytes": 18347,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.5
+  },
+  {
+   "arquivo": "000760.pdf",
+   "bytes": 59141,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.24
+  },
+  {
+   "arquivo": "000761.pdf",
+   "bytes": 2145627,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.99
+  },
+  {
+   "arquivo": "000763.pdf",
+   "bytes": 404009,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.53
+  },
+  {
+   "arquivo": "000770.pdf",
+   "bytes": 46927,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 3,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.17
+  },
+  {
+   "arquivo": "000771.doc",
+   "bytes": 3030016,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000788.doc",
+   "bytes": 34816,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000790.doc",
+   "bytes": 77824,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000795.doc",
+   "bytes": 826368,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000796.doc",
+   "bytes": 108032,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000799.doc",
+   "bytes": 149504,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000801.doc",
+   "bytes": 6149120,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000802.doc",
+   "bytes": 228864,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000803.rtf",
+   "bytes": 45138,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000804.doc",
+   "bytes": 130048,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000806.doc",
+   "bytes": 55296,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000755.pdf",
+   "bytes": 385217,
+   "achados": {
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"The SAS System 16:06 Wednesday, April 30, 2008 1\"",
+     "texto de versão anterior que não está na versão final: \"Data Set Name IN.ECHODATA Observations 492\"",
+     "texto de versão anterior que não está na versão final: \"Member Type DATA Variables 60\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 12.05
+  },
+  {
+   "arquivo": "000809.pdf",
+   "bytes": 32034,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.23
+  },
+  {
+   "arquivo": "000810.pdf",
+   "bytes": 30055,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.31
+  },
+  {
+   "arquivo": "000811.pdf",
+   "bytes": 69137,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug<31>2005 02:58 Aug 08, 2006Jkt 208146PO 00000Frm 00444Fmt 8010Sfmt 8010Y:\\SGML\\208146.XXX208146\"",
+     "pág. 2 — texto em cor branca: \"VerDate Aug<31>2005 02:58 Aug 08, 2006Jkt 208146PO 00000Frm 00445Fmt 8010Sfmt 8003Y:\\SGML\\208146.XXX208146\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.75
+  },
+  {
+   "arquivo": "000813.pdf",
+   "bytes": 104965,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.42
+  },
+  {
+   "arquivo": "000816.pdf",
+   "bytes": 43914,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.92
+  },
+  {
+   "arquivo": "000762.pdf",
+   "bytes": 2393778,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 20 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"pulleys\"",
+     "pág. 20 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Lanyard splits into 3\"",
+     "pág. 42 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"extension\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 15.15
+  },
+  {
+   "arquivo": "000818.pdf",
+   "bytes": 23182,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.11
+  },
+  {
+   "arquivo": "000825.pdf",
+   "bytes": 46623,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate 0ct<31>2002 14:20 Dec 13, 2002Jkt 197204PO 00000Frm 00176Fmt 8010Sfmt 8010Y:\\SGML\\197204T.XXX197204T\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.4
+  },
+  {
+   "arquivo": "000807.pdf",
+   "bytes": 2768386,
+   "achados": {
+    "T1": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.36
+  },
+  {
+   "arquivo": "000834.pdf",
+   "bytes": 51588,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 4 — texto em cor branca: \"VerDate Aug 31 2005 21:32 Dec 13, 2007Jkt 069200PO 00000Frm 00001Fmt 6652Sfmt 6201E:\\BILLS\\H4476.IHH4476 S L L I B h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m\"",
+     "pág. 5 — texto em cor branca: \"S L L I B h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug 31 2005 21:32 Dec 13, 2007Jkt 069200PO 00000Frm 00002Fmt 6652Sfmt 6301E:\\BILLS\\H4476.IHH4476\""
+    ],
+    "V3": [
+     "caminho interno: M:\\bill reports\\110\\hr4476.wpd",
+     "autor: daniel.shepherdson",
+     "título: M:\\bill reports\\110\\hr4476.wpd"
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.11
+  },
+  {
+   "arquivo": "000838.pdf",
+   "bytes": 40395,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.77
+  },
+  {
+   "arquivo": "000839.pdf",
+   "bytes": 185106,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.33
+  },
+  {
+   "arquivo": "000840.pdf",
+   "bytes": 13138,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.48
+  },
+  {
+   "arquivo": "000843.pdf",
+   "bytes": 119705,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.78
+  },
+  {
+   "arquivo": "000826.pdf",
+   "bytes": 1863437,
+   "achados": {
+    "T1": "RISCO",
+    "V2": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 15 — texto em cor branca: \"RCC-DTO-007\"",
+     "pág. 15 — texto em cor branca: \"RCC-DTO-012\""
+    ],
+    "V2": [
+     "FreeText de rross: \"Probe\"",
+     "FreeText de rross: \"Probe\"",
+     "FreeText de rross: \"Socket Caddy\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.18
+  },
+  {
+   "arquivo": "000817.pdf",
+   "bytes": 1471951,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 8,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 15.56
+  },
+  {
+   "arquivo": "000853.pdf",
+   "bytes": 456708,
+   "achados": {
+    "T1": "REVISAR",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 7.3
+  },
+  {
+   "arquivo": "000854.pdf",
+   "bytes": 267421,
+   "achados": {
+    "T1": "REVISAR",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.11
+  },
+  {
+   "arquivo": "000878.pdf",
+   "bytes": 47134,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug 31 2005 02:42 Mar 22, 2007Jkt 059060PO 00000Frm 00052Fmt 7634Sfmt 0634E:\\CR\\FM\\K21MR7.128H21MRPT1 E S U O H h t i w 2 6 C P 1 D O R P n o n a r o c r o c j\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.6
+  },
+  {
+   "arquivo": "000882.pdf",
+   "bytes": 19607,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.88
+  },
+  {
+   "arquivo": "000885.pdf",
+   "bytes": 52185,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.07
+  },
+  {
+   "arquivo": "000674.pdf",
+   "erro": "travou (mais de 60 s)"
+  },
+  {
+   "arquivo": "000899.pdf",
+   "bytes": 135640,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.81
+  },
+  {
+   "arquivo": "000901.pdf",
+   "bytes": 24248,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.71
+  },
+  {
+   "arquivo": "000886.pdf",
+   "bytes": 376076,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 10 — modo de renderização invisível (Tr 3): \"rrTpTrrp-T7-prT.,\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 5.56
+  },
+  {
+   "arquivo": "000911.doc",
+   "bytes": 46080,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000913.doc",
+   "bytes": 174592,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000943.pdf",
+   "bytes": 51770,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.99
+  },
+  {
+   "arquivo": "000944.doc",
+   "bytes": 571904,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000904.pdf",
+   "bytes": 320888,
+   "achados": {
+    "T1": "REVISAR",
+    "V2": "RISCO",
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "V2": [
+     "Text de To access the pamphlet:: \"To get to the pamphlet, click on \"accompanying pamphlet\" text above or in the index at left.\""
+    ],
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)",
+     "ação Launch (abre programa, importa ou envia dados)",
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.1
+  },
+  {
+   "arquivo": "000946.doc",
+   "bytes": 31232,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000948.doc",
+   "bytes": 62976,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000945.pdf",
+   "bytes": 29269,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.63
+  },
+  {
+   "arquivo": "000949.doc",
+   "bytes": 69120,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000950.doc",
+   "bytes": 171520,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000952.doc",
+   "bytes": 247296,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000953.doc",
+   "bytes": 101376,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000954.pdf",
+   "bytes": 69431,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"13-slurry seal_020206.qxd 6/14/2006 9:56 AM Page 1\"",
+     "pág. 2 — fora da área da página: \"13-slurry seal_020206.qxd 6/14/2006 9:56 AM Page 2\"",
+     "pág. 3 — fora da área da página: \"13-slurry seal_020206.qxd 6/14/2006 9:56 AM Page 1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.79
+  },
+  {
+   "arquivo": "000955.pdf",
+   "bytes": 193435,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.4
+  },
+  {
+   "arquivo": "000957.doc",
+   "bytes": 46592,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000958.doc",
+   "bytes": 652800,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000960.doc",
+   "bytes": 78336,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000961.doc",
+   "bytes": 1376768,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000963.doc",
+   "bytes": 113152,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000964.doc",
+   "bytes": 424448,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000965.doc",
+   "bytes": 238080,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000966.doc",
+   "bytes": 1344000,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000967.doc",
+   "bytes": 48128,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000970.doc",
+   "bytes": 43520,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000971.doc",
+   "bytes": 73216,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000973.doc",
+   "bytes": 428032,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000974.doc",
+   "bytes": 285184,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000976.doc",
+   "bytes": 129536,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000977.doc",
+   "bytes": 38400,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000979.doc",
+   "bytes": 1795072,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000981.doc",
+   "bytes": 33280,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "000859.pdf",
+   "bytes": 4119909,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 22.0
+  },
+  {
+   "arquivo": "000956.pdf",
+   "bytes": 277775,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"September 2005\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 12.68
+  },
+  {
+   "arquivo": "000887.pdf",
+   "bytes": 1307071,
+   "achados": {
+    "T1": "REVISAR",
+    "C3": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 37.3
+  },
+  {
+   "arquivo": "001030.pdf",
+   "bytes": 52718,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 20:22 Sep 12, 2008Jkt 214001PO 00000Frm 00071Fmt 4703Sfmt 4703E:\\FR\\FM\\15SEN1.SGM15SEN1\"",
+     "pág. 2 — texto em cor branca: \"I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 20:22 Sep 12, 2008Jkt 214001PO 00000Frm 00072Fmt 4703Sfmt 4703E:\\FR\\FM\\15SEN1.SGM15SEN1\"",
+     "pág. 3 — texto em cor branca: \"I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 20:22 Sep 12, 2008Jkt 214001PO 00000Frm 00073Fmt 4703Sfmt 4703E:\\FR\\FM\\15SEN1.SGM15SEN1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.38
+  },
+  {
+   "arquivo": "001031.pdf",
+   "bytes": 53333,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.65
+  },
+  {
+   "arquivo": "001024.pdf",
+   "bytes": 339738,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: H:\\Groups\\TYPING\\Grape Acreage Bulletin\\200504gabtb00.wpd",
+     "título: H:\\Groups\\TYPING\\Grape Acreage Bulletin\\200504gabtb00.wpd",
+     "autor: taylho"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 26.54
+  },
+  {
+   "arquivo": "001033.pdf",
+   "bytes": 221944,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.32
+  },
+  {
+   "arquivo": "001029.pdf",
+   "bytes": 3156095,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"FEDERAL TRADE COMMISSION | 1.877.FTC.HELP | FOR THE CONSUMER | WWW.FTC.GOV\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 21.7
+  },
+  {
+   "arquivo": "001028.pdf",
+   "bytes": 867914,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: H:\\Groups\\TYPING\\#Grape Acreage Bulletin\\200604gabtb00.wpd",
+     "autor: Taylho",
+     "título: H:\\Groups\\TYPING\\#Grape Acreage Bulletin\\200604gabtb00.wpd"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 27.15
+  },
+  {
+   "arquivo": "001032.pdf",
+   "bytes": 159629,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: W:\\research\\zip\\unzip\\NUTTREES.PDF",
+     "caminho interno: W:\\research\\zip\\unzip\\NUTTREES.WPD",
+     "título: W:\\research\\zip\\unzip\\NUTTREES.PDF"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 8.56
+  },
+  {
+   "arquivo": "001036.pdf",
+   "bytes": 655146,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 28 — modo de renderização invisível (Tr 3): \"EXECUTIVE SUMMARY\"",
+     "pág. 37 — modo de renderização invisível (Tr 3): \"ΔAPPENDIX~D\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.36
+  },
+  {
+   "arquivo": "001038.pdf",
+   "bytes": 442169,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.89
+  },
+  {
+   "arquivo": "001039.pdf",
+   "bytes": 109749,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.63
+  },
+  {
+   "arquivo": "001037.pdf",
+   "bytes": 293876,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"FruitRegister.indd 1509\"",
+     "pág. 1 — texto em cor branca: \"FruitRegister.indd 1509\"",
+     "pág. 2 — fora da área da página: \"FruitRegister.indd 1510\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.73
+  },
+  {
+   "arquivo": "001035.pdf",
+   "bytes": 543248,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — modo de renderização invisível (Tr 3): \"Report Template Update = 04-30-05_rev.12\"",
+     "pág. 2 — modo de renderização invisível (Tr 3): \"Report Template Update = 04-30-05_rev.12\"",
+     "pág. 14 — modo de renderização invisível (Tr 3): \"FINDINGS FINDINGS\""
+    ],
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"'''VIO'$\"",
+     "texto de versão anterior que não está na versão final: \"\".ua\"",
+     "texto de versão anterior que não está na versão final: \"DEPARTMENT OF HEALTH & HUMAN SERVICES\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 12.98
+  },
+  {
+   "arquivo": "001041.pdf",
+   "bytes": 48761,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.22
+  },
+  {
+   "arquivo": "001034.pdf",
+   "bytes": 259005,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 14.2
+  },
+  {
+   "arquivo": "001040.pdf",
+   "bytes": 78781,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.64
+  },
+  {
+   "arquivo": "001044.pdf",
+   "bytes": 13926,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.94
+  },
+  {
+   "arquivo": "001042.pdf",
+   "bytes": 87009,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.11
+  },
+  {
+   "arquivo": "001046.pdf",
+   "bytes": 535330,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.68
+  },
+  {
+   "arquivo": "001047.pdf",
+   "bytes": 85421,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.68
+  },
+  {
+   "arquivo": "001050.pdf",
+   "bytes": 172554,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.3
+  },
+  {
+   "arquivo": "001049.pdf",
+   "bytes": 41479,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.58
+  },
+  {
+   "arquivo": "001043.pdf",
+   "bytes": 4275815,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 10 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"jsc48024-113_006.cnv\"",
+     "pág. 10 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"SECTIONB-B\"",
+     "pág. 10 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"(PIRAY3ANDPIRAY4)\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.8
+  },
+  {
+   "arquivo": "001058.pdf",
+   "bytes": 53463,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.53
+  },
+  {
+   "arquivo": "001059.pdf",
+   "bytes": 410678,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 4.03
+  },
+  {
+   "arquivo": "001045.pdf",
+   "bytes": 4128297,
+   "achados": {
+    "T1": "RISCO",
+    "T2": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 8 — texto em cor branca: \"EVA PREBREATHE CUE CARD\"",
+     "pág. 9 — texto em cor branca: \"BOOSTER FAN\"",
+     "pág. 9 — texto em cor branca: \"LTA RESTRAINT STRAP\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 20.43
+  },
+  {
+   "arquivo": "001060.pdf",
+   "bytes": 176164,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 4.23
+  },
+  {
+   "arquivo": "001061.pdf",
+   "bytes": 328194,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"raphy\"",
+     "pág. 2 — texto em cor branca: \"raphy\"",
+     "pág. 3 — texto em cor branca: \"raphy\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 7.1
+  },
+  {
+   "arquivo": "001062.pdf",
+   "bytes": 545982,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.82
+  },
+  {
+   "arquivo": "001057.pdf",
+   "bytes": 584142,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 25.16
+  },
+  {
+   "arquivo": "001053.pdf",
+   "bytes": 736659,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 25.59
+  },
+  {
+   "arquivo": "001066.doc",
+   "bytes": 104960,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001067.pdf",
+   "bytes": 220271,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.4
+  },
+  {
+   "arquivo": "001063.pdf",
+   "bytes": 255754,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 17 — texto em cor branca: \"Statins\"",
+     "pág. 17 — texto em cor branca: \"g Effectiveness, Safety, and Price\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.04
+  },
+  {
+   "arquivo": "001069.pdf",
+   "bytes": 31858,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.27
+  },
+  {
+   "arquivo": "001070.pdf",
+   "bytes": 87534,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.9
+  },
+  {
+   "arquivo": "001064.pdf",
+   "bytes": 451958,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.4
+  },
+  {
+   "arquivo": "001065.pdf",
+   "bytes": 323355,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 7.79
+  },
+  {
+   "arquivo": "001072.pdf",
+   "bytes": 196911,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.72
+  },
+  {
+   "arquivo": "001073.pdf",
+   "bytes": 42396,
+   "achados": {
+    "C3": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.27
+  },
+  {
+   "arquivo": "001074.pdf",
+   "bytes": 57888,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.34
+  },
+  {
+   "arquivo": "001076.doc",
+   "bytes": 91648,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001075.pdf",
+   "bytes": 58095,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.1
+  },
+  {
+   "arquivo": "001083.doc",
+   "bytes": 435200,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001068.pdf",
+   "bytes": 281439,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 13.14
+  },
+  {
+   "arquivo": "001090.pdf",
+   "bytes": 229812,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.52
+  },
+  {
+   "arquivo": "001092.pdf",
+   "bytes": 629923,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.5
+  },
+  {
+   "arquivo": "001081.pdf",
+   "bytes": 829385,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"ADMINISTRATIVEPROCEEDINGS\"",
+     "texto de versão anterior que não está na versão final: \"SANCTIONED\"",
+     "texto de versão anterior que não está na versão final: \"TheCORaission\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.52
+  },
+  {
+   "arquivo": "001097.pdf",
+   "bytes": 556121,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: H:\\HOME\\TSTROH\\Projects\\Collbran\\Coll final draft ea.wpd",
+     "título: H:\\HOME\\TSTROH\\Projects\\Collbran\\Coll final draft ea.wpd",
+     "autor: TSTROH"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.62
+  },
+  {
+   "arquivo": "001099.pdf",
+   "bytes": 630537,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 2 — texto em cor branca: \"ARTICLEINPRESS\"",
+     "pág. 3 — texto em cor branca: \"ARTICLEINPRESS\"",
+     "pág. 4 — texto em cor branca: \"ARTICLEINPRESS\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.44
+  },
+  {
+   "arquivo": "001094.pdf",
+   "bytes": 247656,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 8 — modo de renderização invisível (Tr 3): \"http://www.stream.fs.fed.us/streamnt/pdf/SN_7-00.pdf\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.52
+  },
+  {
+   "arquivo": "001107.pdf",
+   "bytes": 196014,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.29
+  },
+  {
+   "arquivo": "001106.pdf",
+   "bytes": 1396676,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 11.52
+  },
+  {
+   "arquivo": "001117.pdf",
+   "bytes": 66059,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.14
+  },
+  {
+   "arquivo": "001124.pdf",
+   "bytes": 2104848,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 10.03
+  },
+  {
+   "arquivo": "001127.pdf",
+   "bytes": 354456,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.58
+  },
+  {
+   "arquivo": "001116.pdf",
+   "bytes": 778771,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 20.84
+  },
+  {
+   "arquivo": "001071.pdf",
+   "bytes": 499725,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 49.55
+  },
+  {
+   "arquivo": "001103.pdf",
+   "bytes": 4950108,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 34.26
+  },
+  {
+   "arquivo": "001132.pdf",
+   "bytes": 165244,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.96
+  },
+  {
+   "arquivo": "001134.pdf",
+   "bytes": 236640,
+   "achados": {
+    "V2": "RISCO",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V2": [
+     "FreeText de pat: \"EOD 6/20/06 by pfb\"",
+     "FreeText de dana: \"June 20, 2006\""
+    ],
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"forfeiture.” 385 S.W.2d 33, 873.\""
+    ]
+   },
+   "versoes": 3,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.93
+  },
+  {
+   "arquivo": "001147.pdf",
+   "bytes": 44251,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.14
+  },
+  {
+   "arquivo": "001148.pdf",
+   "bytes": 412486,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.32
+  },
+  {
+   "arquivo": "001135.pdf",
+   "bytes": 29556,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 4.86
+  },
+  {
+   "arquivo": "001149.pdf",
+   "bytes": 1328335,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.88
+  },
+  {
+   "arquivo": "001129.pdf",
+   "bytes": 421754,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 14.19
+  },
+  {
+   "arquivo": "001150.pdf",
+   "bytes": 599716,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.22
+  },
+  {
+   "arquivo": "001152.pdf",
+   "bytes": 2869517,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.66
+  },
+  {
+   "arquivo": "001155.pdf",
+   "bytes": 3278410,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.22
+  },
+  {
+   "arquivo": "001175.doc",
+   "bytes": 33792,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001179.doc",
+   "bytes": 50688,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001256.pdf",
+   "bytes": 155527,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"July 14, 2008\"",
+     "pág. 1 — texto em cor branca: \"www.mcc.gov\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.59
+  },
+  {
+   "arquivo": "001131.pdf",
+   "bytes": 5032825,
+   "achados": {
+    "T1": "REVISAR",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 23.56
+  },
+  {
+   "arquivo": "001265.doc",
+   "bytes": 147456,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001266.pdf",
+   "bytes": 130039,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.74
+  },
+  {
+   "arquivo": "001269.pdf",
+   "bytes": 455235,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.95
+  },
+  {
+   "arquivo": "001270.pdf",
+   "bytes": 54672,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.64
+  },
+  {
+   "arquivo": "001271.pdf",
+   "bytes": 26469,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.91
+  },
+  {
+   "arquivo": "001273.pdf",
+   "bytes": 290816,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": true,
+   "segundos": 0.12
+  },
+  {
+   "arquivo": "001157.pdf",
+   "bytes": 348092,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fonte de 0.1 pt: \"(cid:0)(cid:2)(cid:1)(cid:4)(cid:3)(cid:6)(cid:5)(cid:8)(cid:7)(cid:10)(cid:9)(cid:12)(cid:11)(cid:14)(cid:13)(cid:15)(cid:11)(cid:17)(cid:16)(cid:19)(cid:18)(cid:20)(cid:7)(cid:10)(cid:21)(cid:12)(ci\"",
+     "pág. 2 — fonte de 0.1 pt: \"(cid:0)(cid:2)(cid:1)(cid:4)(cid:3)(cid:6)(cid:5)Z<)(cid:9)(cid:21)(cid:1)M&(cid:8)(cid:201)7*+ \"!i*.&)(e5(cid:4)(cid:29)(cid:31)(cid:15)’˚(cid:28)((cid:4) 3*%/.8(cid:18)˚3(cid:13)h*+ \"¸7(cid:15)q0\\(c\"",
+     "pág. 3 — fonte de 0.1 pt: \"(cid:0)(cid:2)(cid:1)(cid:4)(cid:3)(cid:6)(cid:5)(cid:8)(cid:7)(cid:10)(cid:9)(cid:11)(cid:1)(cid:13)(cid:12)(cid:10)(cid:14)(cid:16)(cid:15)(cid:18)(cid:17)(cid:20)(cid:19)(cid:21)(cid:15)(cid:18)(ci\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 13.44
+  },
+  {
+   "arquivo": "001274.pdf",
+   "bytes": 155671,
+   "achados": {
+    "T1": "REVISAR",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.84
+  },
+  {
+   "arquivo": "001154.pdf",
+   "bytes": 129966,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 17.31
+  },
+  {
+   "arquivo": "001257.pdf",
+   "bytes": 3748578,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 2 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Amenca\"",
+     "pág. 2 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Reálne sa stáva nereálnym,\"",
+     "pág. 2 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"nemysliteľné sa stáva\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 10.22
+  },
+  {
+   "arquivo": "001280.pdf",
+   "bytes": 11453,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.18
+  },
+  {
+   "arquivo": "001276.pdf",
+   "bytes": 1003257,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR",
+    "V5": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"nmat1244.indd 759 nmat1244.indd 759 13/10/04 3:06:21 pm 13/10/04 3:06:21 pm\"",
+     "pág. 2 — fora da área da página: \"nmat1244.indd 760 nmat1244.indd 760 13/10/04 3:06:25 pm 13/10/04 3:06:25 pm\"",
+     "pág. 3 — fora da área da página: \"nmat1244.indd 761 nmat1244.indd 761 13/10/04 3:06:26 pm 13/10/04 3:06:26 pm\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.43
+  },
+  {
+   "arquivo": "001284.pdf",
+   "bytes": 114304,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": true,
+   "segundos": 0.13
+  },
+  {
+   "arquivo": "001281.pdf",
+   "bytes": 48832,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug<31>2005 20:24 Aug 15, 2006Jkt 208001PO 00000Frm 00086Fmt 4703Sfmt 4703E:\\FR\\FM\\16AUN1.SGM16AUN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.58
+  },
+  {
+   "arquivo": "001286.pdf",
+   "bytes": 294423,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.43
+  },
+  {
+   "arquivo": "001288.pdf",
+   "bytes": 337954,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.65
+  },
+  {
+   "arquivo": "001278.pdf",
+   "bytes": 2672602,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 41 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Nonlinear Regression\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 9.6
+  },
+  {
+   "arquivo": "001291.pdf",
+   "bytes": 429277,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.91
+  },
+  {
+   "arquivo": "001285.pdf",
+   "bytes": 2386423,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 10.79
+  },
+  {
+   "arquivo": "001292.pdf",
+   "bytes": 472411,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.11
+  },
+  {
+   "arquivo": "001293.pdf",
+   "bytes": 2707516,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.7
+  },
+  {
+   "arquivo": "001294.pdf",
+   "bytes": 129976,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.43
+  },
+  {
+   "arquivo": "001297.pdf",
+   "bytes": 55659,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug<31>2005 20:24 Aug 15, 2006Jkt 208001PO 00000Frm 00085Fmt 4703Sfmt 4703E:\\FR\\FM\\16AUN1.SGM16AUN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j\"",
+     "pág. 2 — texto em cor branca: \"VerDate Aug<31>2005 20:24 Aug 15, 2006Jkt 208001PO 00000Frm 00086Fmt 4703Sfmt 4703E:\\FR\\FM\\16AUN1.SGM16AUN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.02
+  },
+  {
+   "arquivo": "001296.pdf",
+   "bytes": 289817,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"+ Stripofsquares\"",
+     "pág. 2 — texto em cor branca: \"Stripofequilateraltriangles\"",
+     "pág. 4 — texto em cor branca: \"+ Tessellationofsquares Tessellationofdodecagons\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.87
+  },
+  {
+   "arquivo": "001299.pdf",
+   "bytes": 67267,
+   "achados": {
+    "C3": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": true,
+   "segundos": 1.32
+  },
+  {
+   "arquivo": "001300.pdf",
+   "bytes": 609596,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.49
+  },
+  {
+   "arquivo": "001301.pdf",
+   "bytes": 1062778,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.86
+  },
+  {
+   "arquivo": "001298.pdf",
+   "bytes": 1110204,
+   "achados": {
+    "T1": "RISCO",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 3 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Encoded/compressed dataMode selection\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 7.99
+  },
+  {
+   "arquivo": "001303.pdf",
+   "bytes": 1346410,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 7 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"lumetric water measurements recorded by INL Sensor Package\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.29
+  },
+  {
+   "arquivo": "001279.pdf",
+   "bytes": 776446,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 3,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 28.86
+  },
+  {
+   "arquivo": "001302.pdf",
+   "bytes": 184154,
+   "achados": {
+    "T1": "RISCO",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 13 — texto em cor branca: \"Figure 7.1. Mean diurnal temperature by study area and location type for Southwestern Willow Flycatcher microclimate data along the Virgin 2003. June–August Colorado regions, lower River and\"",
+     "pág. 14 — texto em cor branca: \"Figure 7.2. Mean diurnal relative humidity by study area and location type for Southwestern Willow Flycatcher microclimate data along\"",
+     "pág. 14 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"June–August Colorado regions, Virgin lower River and\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.65
+  },
+  {
+   "arquivo": "001304.pdf",
+   "bytes": 427743,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.14
+  },
+  {
+   "arquivo": "001307.pdf",
+   "bytes": 936487,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)",
+     "ação Launch (abre programa, importa ou envia dados)",
+     "arquivo embutido"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.1
+  },
+  {
+   "arquivo": "001306.pdf",
+   "bytes": 261059,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 4.95
+  },
+  {
+   "arquivo": "001309.pdf",
+   "bytes": 182724,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.05
+  },
+  {
+   "arquivo": "001310.pdf",
+   "bytes": 613415,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.05
+  },
+  {
+   "arquivo": "001312.pdf",
+   "bytes": 124799,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.51
+  },
+  {
+   "arquivo": "001311.pdf",
+   "bytes": 675556,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.15
+  },
+  {
+   "arquivo": "001339.doc",
+   "bytes": 158720,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001313.pdf",
+   "bytes": 284378,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.46
+  },
+  {
+   "arquivo": "001341.pdf",
+   "bytes": 19203,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.38
+  },
+  {
+   "arquivo": "001343.pdf",
+   "bytes": 7120,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: H:\\MILLIE\\4-10.2.wpd",
+     "autor: Millie",
+     "título: H:\\MILLIE\\4-10.2.wpd"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.14
+  },
+  {
+   "arquivo": "001355.pdf",
+   "bytes": 34488,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug<31>2005 21:09 Sep 25, 2008Jkt 214001PO 00000Frm 00001Fmt 4748Sfmt 4748E:\\FR\\FM\\26SECN.SGM26SECN 5 S L A S O P O R P h t i w 6 7 C P 1 D O R P n o n o s n b o r s h i\"",
+     "pág. 2 — texto em cor branca: \"VerDate Aug<31>2005 21:09 Sep 25, 2008Jkt 214001PO 00000Frm 00002Fmt 4748Sfmt 4748E:\\FR\\FM\\26SECN.SGM26SECN 5 S L A S O P O R P h t i w 6 7 C P 1 D O R P n o n o s n b o r s h i\"",
+     "pág. 3 — texto em cor branca: \"VerDate Aug<31>2005 21:09 Sep 25, 2008Jkt 214001PO 00000Frm 00003Fmt 4748Sfmt 4748E:\\FR\\FM\\26SECN.SGM26SECN 5 S L A S O P O R P h t i w 6 7 C P 1 D O R P n o n o s n b o r s h i\""
+    ],
+    "V3": [
+     "caminho interno: E:\\FR\\FM\\26SECN.SGM",
+     "título: E:\\FR\\FM\\26SECN.SGM"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.26
+  },
+  {
+   "arquivo": "001359.pdf",
+   "bytes": 20559,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.74
+  },
+  {
+   "arquivo": "001361.doc",
+   "bytes": 96768,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001362.doc",
+   "bytes": 131584,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001358.pdf",
+   "bytes": 44253,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.84
+  },
+  {
+   "arquivo": "001363.pdf",
+   "bytes": 49573,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Nov<24>2008 21:01 Jan 13, 2009Jkt 217001PO 00000Frm 00022Fmt 4703Sfmt 4703E:\\FR\\FM\\14JAN1.SGM14JAN1 I S E C T O N h t i w 0 7 C P 1 D O R P n o s t r e b o r s\"",
+     "pág. 2 — texto em cor branca: \"VerDate Nov<24>2008 21:01 Jan 13, 2009Jkt 217001PO 00000Frm 00023Fmt 4703Sfmt 4703E:\\FR\\FM\\14JAN1.SGM14JAN1 I S E C T O N h t i w 0 7 C P 1 D O R P n o s t r e b o r s\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.96
+  },
+  {
+   "arquivo": "001364.pdf",
+   "bytes": 49248,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug<31>2005 18:07 Sep 25, 2008Jkt 214001PO 00000Frm 00037Fmt 4703Sfmt 4703E:\\FR\\FM\\26SEN1.SGM26SEN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j\"",
+     "pág. 2 — texto em cor branca: \"VerDate Aug<31>2005 18:07 Sep 25, 2008Jkt 214001PO 00000Frm 00038Fmt 4703Sfmt 4703E:\\FR\\FM\\26SEN1.SGM26SEN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.97
+  },
+  {
+   "arquivo": "001368.pdf",
+   "bytes": 58650,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Nov<24>2008 21:01 Jan 13, 2009Jkt 217001PO 00000Frm 00021Fmt 4703Sfmt 4703E:\\FR\\FM\\14JAN1.SGM14JAN1 I S E C T O N h t i w 0 7 C P 1 D O R P n o s t r e b o r s\"",
+     "pág. 2 — texto em cor branca: \"VerDate Nov<24>2008 21:01 Jan 13, 2009Jkt 217001PO 00000Frm 00022Fmt 4703Sfmt 4703E:\\FR\\FM\\14JAN1.SGM14JAN1 I S E C T O N h t i w 0 7 C P 1 D O R P n o s t r e b o r s\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.98
+  },
+  {
+   "arquivo": "001305.pdf",
+   "bytes": 2115058,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 2 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"2 Wetting Front ■ June 2008\"",
+     "pág. 8 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"A USDA-ARS Bushland, Texas\"",
+     "pág. 15 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Table 1. Instrumentation used in radiation measurements. The mention of trade names of commercial products is solely for the purpose of providing specific information and does not imply recommendation\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 21.87
+  },
+  {
+   "arquivo": "001367.pdf",
+   "bytes": 68943,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 18:31 Sep 28, 2007Jkt 214001PO 00000Frm 00112Fmt 4703Sfmt 4703E:\\FR\\FM\\01OCN1.SGM01OCN1\"",
+     "pág. 2 — texto em cor branca: \"I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 18:31 Sep 28, 2007Jkt 214001PO 00000Frm 00113Fmt 4703Sfmt 4703E:\\FR\\FM\\01OCN1.SGM01OCN1\"",
+     "pág. 3 — texto em cor branca: \"I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 18:31 Sep 28, 2007Jkt 214001PO 00000Frm 00114Fmt 4703Sfmt 4703E:\\FR\\FM\\01OCN1.SGM01OCN1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.06
+  },
+  {
+   "arquivo": "001369.pdf",
+   "bytes": 99771,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.58
+  },
+  {
+   "arquivo": "001371.pdf",
+   "bytes": 772476,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.45
+  },
+  {
+   "arquivo": "001373.pdf",
+   "bytes": 153125,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: H:\\Madelyn\\OPINIONS\\2005\\SNG\\sng memorandum decision.wpd",
+     "caminho interno: H:\\Madelyn\\OPINIONS\\2005\\SNG\\sng memorandum decision.wpd (unmodified)]",
+     "autor: madelyn"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.37
+  },
+  {
+   "arquivo": "001374.pdf",
+   "bytes": 178850,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.0
+  },
+  {
+   "arquivo": "001375.pdf",
+   "bytes": 25071,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.26
+  },
+  {
+   "arquivo": "001290.pdf",
+   "erro": "travou (mais de 60 s)"
+  },
+  {
+   "arquivo": "001372.pdf",
+   "bytes": 403233,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"1390_A1-A7 11/4/08 4:36 PM Page 1 330-383/B428-S/40005\"",
+     "pág. 2 — fora da área da página: \"1390_A1-A7 11/4/08 4:36 PM Page 2 330-383/B428-S/40005\"",
+     "pág. 3 — fora da área da página: \"1390_A1-A7 11/4/08 4:36 PM Page 3 330-383/B428-S/40005\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 18.1
+  },
+  {
+   "arquivo": "001370.pdf",
+   "bytes": 2593056,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 2 — texto em cor branca: \"THREE\"",
+     "pág. 2 — texto em cor branca: \"FOUR\"",
+     "pág. 4 — texto em cor branca: \"1. Section 1 ONE Introduction\""
+    ],
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"USERS MANUAL:\"",
+     "texto de versão anterior que não está na versão final: \"PRIORITIZATION OF DAMS\"",
+     "texto de versão anterior que não está na versão final: \"THROUGH RISK\""
+    ]
+   },
+   "versoes": 3,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 22.21
+  },
+  {
+   "arquivo": "001377.pdf",
+   "bytes": 385116,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 13.89
+  },
+  {
+   "arquivo": "001380.pdf",
+   "bytes": 1745867,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.57
+  },
+  {
+   "arquivo": "001376.pdf",
+   "bytes": 405607,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 19.84
+  },
+  {
+   "arquivo": "001381.pdf",
+   "bytes": 836019,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.35
+  },
+  {
+   "arquivo": "001383.pdf",
+   "bytes": 33303,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.48
+  },
+  {
+   "arquivo": "001382.pdf",
+   "bytes": 412020,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 5.61
+  },
+  {
+   "arquivo": "001379.pdf",
+   "bytes": 1930038,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 19.74
+  },
+  {
+   "arquivo": "001386.pdf",
+   "bytes": 164474,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.02
+  },
+  {
+   "arquivo": "001385.pdf",
+   "bytes": 950009,
+   "achados": {
+    "T1": "RISCO",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"NASA History Division Office of Policy and Plans NASA Headquarters Washington, DC 20546 NP-1998-10-244-HQ November 1998\"",
+     "pág. 56 — fora da área da página: \"TOGETHER IN ORBIT The Origins of International The Origins of International Participation in the Space Station Participation in the Space Station John M. Logsdon Monographs in Aerospace History #11\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 13.39
+  },
+  {
+   "arquivo": "001384.pdf",
+   "bytes": 168605,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 3,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 20.61
+  },
+  {
+   "arquivo": "001378.pdf",
+   "bytes": 877357,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 39.11
+  },
+  {
+   "arquivo": "001388.pdf",
+   "bytes": 1019376,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"DOS photos\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.66
+  },
+  {
+   "arquivo": "001389.pdf",
+   "bytes": 145447,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.97
+  },
+  {
+   "arquivo": "001391.pdf",
+   "bytes": 49720,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug<31>2005 18:07 Sep 25, 2008Jkt 214001PO 00000Frm 00036Fmt 4703Sfmt 4703E:\\FR\\FM\\26SEN1.SGM26SEN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j\"",
+     "pág. 2 — texto em cor branca: \"VerDate Aug<31>2005 18:07 Sep 25, 2008Jkt 214001PO 00000Frm 00037Fmt 4703Sfmt 4703E:\\FR\\FM\\26SEN1.SGM26SEN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.24
+  },
+  {
+   "arquivo": "001406.pdf",
+   "bytes": 56162,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.65
+  },
+  {
+   "arquivo": "001387.pdf",
+   "bytes": 432424,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 13.4
+  },
+  {
+   "arquivo": "001463.doc",
+   "bytes": 34816,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001464.doc",
+   "bytes": 71680,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001392.pdf",
+   "bytes": 630906,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 6.53
+  },
+  {
+   "arquivo": "001465.pdf",
+   "bytes": 116175,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.97
+  },
+  {
+   "arquivo": "001466.pdf",
+   "bytes": 41737,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: S:\\directiv\\NOTICES\\dap\\DAP_94.wpd",
+     "título: S:\\directiv\\NOTICES\\dap\\DAP_94.wpd"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.45
+  },
+  {
+   "arquivo": "001468.rtf",
+   "bytes": 308973,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001470.doc",
+   "bytes": 318464,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001472.doc",
+   "bytes": 139776,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001481.pdf",
+   "bytes": 64814,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.34
+  },
+  {
+   "arquivo": "001390.pdf",
+   "bytes": 2958922,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 13.86
+  },
+  {
+   "arquivo": "001467.pdf",
+   "bytes": 2513346,
+   "achados": {
+    "T1": "REVISAR",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.54
+  },
+  {
+   "arquivo": "001484.pdf",
+   "bytes": 54650,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.85
+  },
+  {
+   "arquivo": "001487.pdf",
+   "bytes": 18055,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\web_Stuff\\bldmem\\8_5_94.w51",
+     "título: Use of an FDA Cleared or Approved Sterile Connecting Device (STCD) in Blood Bank Practice",
+     "autor: CBER FDA"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.77
+  },
+  {
+   "arquivo": "001483.pdf",
+   "bytes": 103660,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.87
+  },
+  {
+   "arquivo": "001418.pdf",
+   "bytes": 102712,
+   "achados": {
+    "C3": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 12.44
+  },
+  {
+   "arquivo": "001490.pdf",
+   "bytes": 96931,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.23
+  },
+  {
+   "arquivo": "001488.pdf",
+   "bytes": 196699,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.09
+  },
+  {
+   "arquivo": "001489.pdf",
+   "bytes": 236813,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.25
+  },
+  {
+   "arquivo": "001493.pdf",
+   "bytes": 232281,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.23
+  },
+  {
+   "arquivo": "001495.pdf",
+   "bytes": 46685,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.4
+  },
+  {
+   "arquivo": "001492.pdf",
+   "bytes": 2260830,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 10.36
+  },
+  {
+   "arquivo": "001497.pdf",
+   "bytes": 2061494,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.03
+  },
+  {
+   "arquivo": "001499.pdf",
+   "bytes": 69741,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.43
+  },
+  {
+   "arquivo": "001482.pdf",
+   "bytes": 1231188,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Step\"",
+     "pág. 11 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"U188 Phenol U200 Reserpine U201 Resorcinol\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 21.14
+  },
+  {
+   "arquivo": "001498.pdf",
+   "bytes": 116755,
+   "achados": {
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"file:////Roundtable/Projects/032 Safety Technolog.../Professional/Speed Management/McMurraySpeech.htm (1 of 7) [6/14/2000 5:15:57 PM]\"",
+     "texto de versão anterior que não está na versão final: \"file:////Roundtable/Projects/032 Safety Technolog.../Professional/Speed Management/McMurraySpeech.htm (2 of 7) [6/14/2000 5:15:57 PM]\"",
+     "texto de versão anterior que não está na versão final: \"file:////Roundtable/Projects/032 Safety Technolog.../Professional/Speed Management/McMurraySpeech.htm (3 of 7) [6/14/2000 5:15:57 PM]\""
+    ]
+   },
+   "versoes": 4,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.18
+  },
+  {
+   "arquivo": "001501.pdf",
+   "bytes": 186555,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.82
+  },
+  {
+   "arquivo": "001505.pdf",
+   "bytes": 99081,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.77
+  },
+  {
+   "arquivo": "001506.pdf",
+   "bytes": 71858,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\Documents and Settings\\lmokodea\\My Documents\\OHR\\2190.8.wpd",
+     "título: C:\\Documents and Settings\\lmokodea\\My Documents\\OHR\\2190.8.wpd",
+     "autor: lmokodea"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.1
+  },
+  {
+   "arquivo": "001508.pdf",
+   "bytes": 143511,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.26
+  },
+  {
+   "arquivo": "001509.pdf",
+   "bytes": 60478,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.67
+  },
+  {
+   "arquivo": "001504.pdf",
+   "bytes": 606064,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 14.92
+  },
+  {
+   "arquivo": "001511.pdf",
+   "bytes": 495351,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.45
+  },
+  {
+   "arquivo": "001510.pdf",
+   "bytes": 890701,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 7 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Vacuum Pump Uninteruptable Power Supply Transformer (High Voltage) Transducer Thermoresistance Thermocouple Switch Site Power Supply Peristaltic Pump Oil circulation pump Ionization Chamber Indicator \"",
+     "pág. 8 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Vacuum Pump\"",
+     "pág. 8 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Uninteruptable Power Supply Transformer (High Voltage)\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 9.8
+  },
+  {
+   "arquivo": "001512.pdf",
+   "bytes": 120286,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.28
+  },
+  {
+   "arquivo": "001514.pdf",
+   "bytes": 41986,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.76
+  },
+  {
+   "arquivo": "001538.doc",
+   "bytes": 481792,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001542.doc",
+   "bytes": 295424,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001550.rtf",
+   "bytes": 123612,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001528.pdf",
+   "bytes": 51914,
+   "achados": {
+    "T1": "RISCO",
+    "C1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"Pittsburgh Coal Conference http://www.petc.doe.gov/docs/pitclcon/fluegas.html\"",
+     "pág. 2 — fora da área da página: \"Pittsburgh Coal Conference http://www.petc.doe.gov/docs/pitclcon/fluegas.html\"",
+     "pág. 3 — fora da área da página: \"Pittsburgh Coal Conference http://www.petc.doe.gov/docs/pitclcon/fluegas.html\""
+    ],
+    "C1": [
+     "18018012018060180180 — dígito verificador não confere: este número não pode existir"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.11
+  },
+  {
+   "arquivo": "001565.pdf",
+   "bytes": 38181,
+   "achados": {
+    "V2": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "V2": [
+     "FreeText de lpaula: \"December 24, 2008\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.99
+  },
+  {
+   "arquivo": "001567.doc",
+   "bytes": 465920,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001572.doc",
+   "bytes": 566784,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001564.pdf",
+   "bytes": 54311,
+   "achados": {
+    "V2": "RISCO",
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V2": [
+     "FreeText de lpaula: \"November 24, 2008\""
+    ],
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"Filename:\"",
+     "texto de versão anterior que não está na versão final: \"Directory:\"",
+     "texto de versão anterior que não está na versão final: \"Template:\""
+    ]
+   },
+   "versoes": 5,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.48
+  },
+  {
+   "arquivo": "001577.doc",
+   "bytes": 89600,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001611.doc",
+   "bytes": 221184,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001612.doc",
+   "bytes": 230912,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001614.doc",
+   "bytes": 32256,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001616.doc",
+   "bytes": 36864,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001618.doc",
+   "bytes": 25600,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001619.doc",
+   "bytes": 159744,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001621.doc",
+   "bytes": 154112,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001622.doc",
+   "bytes": 269824,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001623.doc",
+   "bytes": 508416,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001625.doc",
+   "bytes": 263680,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001626.doc",
+   "bytes": 43008,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001628.doc",
+   "bytes": 74752,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001629.doc",
+   "bytes": 338432,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001631.doc",
+   "bytes": 366080,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001632.doc",
+   "bytes": 99328,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001633.doc",
+   "bytes": 583680,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001634.doc",
+   "bytes": 164864,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001635.doc",
+   "bytes": 43008,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001636.doc",
+   "bytes": 85504,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001637.doc",
+   "bytes": 1580544,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001638.doc",
+   "bytes": 1717760,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001640.doc",
+   "bytes": 101888,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001641.doc",
+   "bytes": 320512,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001642.doc",
+   "bytes": 96256,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001643.doc",
+   "bytes": 250368,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001645.doc",
+   "bytes": 1452544,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001646.doc",
+   "bytes": 1335296,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001503.pdf",
+   "bytes": 865031,
+   "achados": {
+    "V3": "RISCO",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\WINNT\\Profiles\\Administrator\\DESKTOP\\800-16.wpd",
+     "título: C:\\WINNT\\Profiles\\Administrator\\DESKTOP\\800-16.wpd"
+    ],
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"NIST would like to thank the many people who assisted with the development of this document.\"",
+     "texto de versão anterior que não está na versão final: \"We thank the members of the Federal Computer Security Program Managers’ Forum and the\"",
+     "texto de versão anterior que não está na versão final: \"Federal Information Systems Security Educators’ Association (FISSEA), and in particular, the\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 43.36
+  },
+  {
+   "arquivo": "001648.doc",
+   "bytes": 120832,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001649.pdf",
+   "bytes": 153778,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Page 1 of 4\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.81
+  },
+  {
+   "arquivo": "001650.pdf",
+   "bytes": 1018370,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.01
+  },
+  {
+   "arquivo": "001651.doc",
+   "bytes": 1963520,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001652.doc",
+   "bytes": 697344,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001494.pdf",
+   "erro": "travou (mais de 60 s)"
+  },
+  {
+   "arquivo": "001656.pdf",
+   "bytes": 180035,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.98
+  },
+  {
+   "arquivo": "001657.pdf",
+   "bytes": 590536,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.15
+  },
+  {
+   "arquivo": "001658.pdf",
+   "bytes": 420480,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.46
+  },
+  {
+   "arquivo": "001655.pdf",
+   "bytes": 1176847,
+   "achados": {
+    "T1": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.69
+  },
+  {
+   "arquivo": "001659.pdf",
+   "bytes": 443825,
+   "achados": {
+    "T1": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.45
+  },
+  {
+   "arquivo": "001661.pdf",
+   "bytes": 27528,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.46
+  },
+  {
+   "arquivo": "001660.pdf",
+   "bytes": 51631,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.17
+  },
+  {
+   "arquivo": "001663.pdf",
+   "bytes": 49140,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate jul<14>2003 13:14 Jan 24, 2005Jkt 205001PO 00000Frm 00061Fmt 4703Sfmt 4703E:\\FR\\FM\\25JAN1.SGM25JAN1\"",
+     "pág. 2 — texto em cor branca: \"VerDate jul<14>2003 13:14 Jan 24, 2005Jkt 205001PO 00000Frm 00062Fmt 4703Sfmt 4703E:\\FR\\FM\\25JAN1.SGM25JAN1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.98
+  },
+  {
+   "arquivo": "001664.pdf",
+   "bytes": 30677,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.69
+  },
+  {
+   "arquivo": "001665.pdf",
+   "bytes": 50843,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate jul<14>2003 20:28 Jul 29, 2004Jkt 203001PO 00000Frm 00154Fmt 4703Sfmt 4703E:\\FR\\FM\\30JYN1.SGM30JYN1\"",
+     "pág. 2 — texto em cor branca: \"VerDate jul<14>2003 20:28 Jul 29, 2004Jkt 203001PO 00000Frm 00155Fmt 4703Sfmt 4703E:\\FR\\FM\\30JYN1.SGM30JYN1\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.97
+  },
+  {
+   "arquivo": "001666.pdf",
+   "bytes": 70620,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.29
+  },
+  {
+   "arquivo": "001669.pdf",
+   "bytes": 2113367,
+   "achados": {
+    "T2": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.75
+  },
+  {
+   "arquivo": "001668.pdf",
+   "bytes": 1201932,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR",
+    "V5": "RISCO"
+   },
+   "evidencias": {
+    "V5": [
+     "ação Launch (abre programa, importa ou envia dados)",
+     "ação Launch (abre programa, importa ou envia dados)",
+     "ação Launch (abre programa, importa ou envia dados)"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.92
+  },
+  {
+   "arquivo": "001672.pdf",
+   "bytes": 272187,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.0
+  },
+  {
+   "arquivo": "001673.pdf",
+   "bytes": 61079,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.02
+  },
+  {
+   "arquivo": "001670.pdf",
+   "bytes": 470297,
+   "achados": {
+    "V2": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "V2": [
+     "Text de Maury Grundy: \"Figure H2 - a picture of a Nihon Kohden model 125 polysomnography machine.\"",
+     "Text de Maury Grundy: \"Figure H1 - a picture of a patient with various leads attached.\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.45
+  },
+  {
+   "arquivo": "001644.pdf",
+   "bytes": 4068940,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 40.89
+  },
+  {
+   "arquivo": "001647.pdf",
+   "bytes": 4078399,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 40.49
+  },
+  {
+   "arquivo": "001676.pdf",
+   "bytes": 220994,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.11
+  },
+  {
+   "arquivo": "001675.pdf",
+   "bytes": 393166,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.9
+  },
+  {
+   "arquivo": "001678.pdf",
+   "bytes": 56745,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.17
+  },
+  {
+   "arquivo": "001679.pdf",
+   "bytes": 161190,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.18
+  },
+  {
+   "arquivo": "001680.pdf",
+   "bytes": 174557,
+   "achados": {
+    "T1": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.35
+  },
+  {
+   "arquivo": "001681.pdf",
+   "bytes": 226474,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.82
+  },
+  {
+   "arquivo": "001674.pdf",
+   "bytes": 123151,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 5,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 9.43
+  },
+  {
+   "arquivo": "001682.pdf",
+   "bytes": 22080,
+   "achados": {
+    "V3": "RISCO"
+   },
+   "evidencias": {
+    "V3": [
+     "caminho interno: C:\\WINDOWS\\Profiles\\axt2\\Desktop\\ml023520399.wpd (unmodified)]",
+     "título: Corel Office Document",
+     "autor: AXT2"
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.02
+  },
+  {
+   "arquivo": "001684.pdf",
+   "bytes": 234509,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.78
+  },
+  {
+   "arquivo": "001683.pdf",
+   "bytes": 368829,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.76
+  },
+  {
+   "arquivo": "001687.pdf",
+   "bytes": 3998625,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.46
+  },
+  {
+   "arquivo": "001686.pdf",
+   "bytes": 206265,
+   "achados": {
+    "T1": "RISCO",
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 2 — fora da área da página: \"oceanexplorer.noaa.gov Galapagos Rift Expedition – Grades 7-8 Focus: Locating hydrothermal vents\"",
+     "pág. 3 — fora da área da página: \"Galapagos Rift Expedition – Grades 7-8 Focus: Locating hydrothermal vents oceanexplorer.noaa.gov\"",
+     "pág. 4 — fora da área da página: \"oceanexplorer.noaa.gov Galapagos Rift Expedition – Grades 7-8 Focus: Locating hydrothermal vents\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.87
+  },
+  {
+   "arquivo": "001688.pdf",
+   "bytes": 852040,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.16
+  },
+  {
+   "arquivo": "001689.pdf",
+   "bytes": 7338,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.27
+  },
+  {
+   "arquivo": "001691.pdf",
+   "bytes": 382985,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.2
+  },
+  {
+   "arquivo": "001685.pdf",
+   "bytes": 126845,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 3,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.75
+  },
+  {
+   "arquivo": "001690.pdf",
+   "bytes": 1037549,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.49
+  },
+  {
+   "arquivo": "001694.pdf",
+   "bytes": 117631,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.72
+  },
+  {
+   "arquivo": "001693.pdf",
+   "bytes": 223809,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.32
+  },
+  {
+   "arquivo": "001695.pdf",
+   "bytes": 463042,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.7
+  },
+  {
+   "arquivo": "001696.pdf",
+   "bytes": 700158,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.89
+  },
+  {
+   "arquivo": "001692.pdf",
+   "bytes": 542031,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.83
+  },
+  {
+   "arquivo": "001730.pdf",
+   "bytes": 287090,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Page 1 of 4\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.92
+  },
+  {
+   "arquivo": "001737.pdf",
+   "bytes": 407811,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Page1of4\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.5
+  },
+  {
+   "arquivo": "001766.pdf",
+   "bytes": 40763,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.8
+  },
+  {
+   "arquivo": "001765.pdf",
+   "bytes": 81827,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.77
+  },
+  {
+   "arquivo": "001768.pdf",
+   "bytes": 41693,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.57
+  },
+  {
+   "arquivo": "001769.pdf",
+   "bytes": 800689,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.16
+  },
+  {
+   "arquivo": "001767.pdf",
+   "bytes": 639688,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 12.38
+  },
+  {
+   "arquivo": "001770.pdf",
+   "bytes": 236410,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — modo de renderização invisível (Tr 3): \"MURFREESBORO, TENNESSEE NDB FQW 371 T AWOS-3 133.975 2700 127 (18.6) BNA 114.1 BNA NASHVILLE Chan 88\"",
+     "pág. 1 — modo de renderização invisível (Tr 3): \"1789 ELEV ELEV ELEV 615 186 4.7 NM from FAF TDZE 613 18 V P U % 4 . 0 0 0 1 X 8 9 8 3 V 36 AL-6123 (FAA) APP CRS 186 Rwy ldg TDZE Apt Elev 3898 613 615 NDB RWY 18 MURFREESBORO MUNI (MBT) NASHVILLE APP\"",
+     "pág. 1 — modo de renderização invisível (Tr 3): \"2700 D (MBT) NA NA NA NA SYI 109.0 SYI SHELBYVILLE Chan 27 NDB Remain within 10 NM 2200 B 006 186 C VGSI and descent angles not coincident. 1 1 1 1 2 2 4 1 2 1 1 1 2 2 4 2 1160-1 1160-1 547 (600-1 ) 5\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.77
+  },
+  {
+   "arquivo": "001780.pdf",
+   "bytes": 325797,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — fora da área da página: \"This Health Hazard Evaluation (HHE) report and any recommendations made herein are for the specific facility evaluated and may not be universally This Health Hazard Evaluation (HHE) report and any rec\"",
+     "pág. 3 — texto em cor branca: \"Highlights of the NIOSH Health Hazard Evaluation\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.94
+  },
+  {
+   "arquivo": "001677.pdf",
+   "bytes": 821984,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 46.69
+  },
+  {
+   "arquivo": "001720.pdf",
+   "bytes": 597008,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"ichael W. Ogden\"",
+     "pág. 1 — texto em cor branca: \"1Oak Ridge Natio\"",
+     "pág. 1 — texto em cor branca: \"l Laboratory 2R.J. Reynolds\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 26.47
+  },
+  {
+   "arquivo": "001785.pdf",
+   "bytes": 99264,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.92
+  },
+  {
+   "arquivo": "001796.pdf",
+   "bytes": 135037,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 6 — fora da área da página: \"Actonel (risedronate sodium) PRODUCT INFO Product Code 0149-0471 Dosage Form TABLET, FILM COATED Route Of Administration ORAL DEA Schedule INGREDIENTS Name (Active Moiety) risedronate sodium (risedron\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.69
+  },
+  {
+   "arquivo": "001793.pdf",
+   "bytes": 259524,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.58
+  },
+  {
+   "arquivo": "001799.pdf",
+   "bytes": 47863,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.44
+  },
+  {
+   "arquivo": "001814.pdf",
+   "bytes": 36174,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": true,
+   "segundos": 0.9
+  },
+  {
+   "arquivo": "001815.pdf",
+   "bytes": 530585,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.53
+  },
+  {
+   "arquivo": "001849.doc",
+   "bytes": 190976,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001787.pdf",
+   "bytes": 85517,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 8.25
+  },
+  {
+   "arquivo": "001850.doc",
+   "bytes": 843264,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001851.doc",
+   "bytes": 107520,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001853.doc",
+   "bytes": 239616,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001852.pdf",
+   "bytes": 60552,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.22
+  },
+  {
+   "arquivo": "001855.doc",
+   "bytes": 48640,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001856.doc",
+   "bytes": 107520,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001857.rtf",
+   "bytes": 6876,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001854.pdf",
+   "bytes": 341591,
+   "achados": {
+    "T1": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.44
+  },
+  {
+   "arquivo": "001858.rtf",
+   "bytes": 5112,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001859.doc",
+   "bytes": 141824,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001861.doc",
+   "bytes": 68608,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001862.doc",
+   "bytes": 90624,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001863.doc",
+   "bytes": 734208,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001864.doc",
+   "bytes": 40448,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001865.doc",
+   "bytes": 164352,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001867.doc",
+   "bytes": 54784,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001868.doc",
+   "bytes": 155136,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001775.pdf",
+   "bytes": 591953,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"d W. Counts, Bruce A. Tomkins, and\"",
+     "pág. 1 — texto em cor branca: \"Ralph H. Ilgner Chemical and Analy\"",
+     "pág. 1 — texto em cor branca: \"ical Sciences Division Computer Science an\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 24.22
+  },
+  {
+   "arquivo": "001872.doc",
+   "bytes": 3641344,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001873.doc",
+   "bytes": 224768,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001874.doc",
+   "bytes": 270848,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001875.doc",
+   "bytes": 623616,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001876.doc",
+   "bytes": 534016,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001877.doc",
+   "bytes": 336896,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001800.pdf",
+   "bytes": 1158625,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 15.09
+  },
+  {
+   "arquivo": "001879.doc",
+   "bytes": 35840,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001880.doc",
+   "bytes": 207360,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001881.doc",
+   "bytes": 207872,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001869.pdf",
+   "bytes": 2911450,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 33 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Temps (s)\"",
+     "pág. 33 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Temps (s)\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 11.22
+  },
+  {
+   "arquivo": "001884.doc",
+   "bytes": 389632,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001885.doc",
+   "bytes": 41472,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001886.doc",
+   "bytes": 2886656,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001871.pdf",
+   "bytes": 2637938,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"vities\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 12.02
+  },
+  {
+   "arquivo": "001897.pdf",
+   "bytes": 63883,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Aug<31>2005 15:19 Aug 01, 2008Jkt 214001PO 00000Frm 00006Fmt 4700Sfmt 4700E:\\FR\\FM\\04AUR1.SGM04AUR1 S E L U R h t i w 0 6 C P D O R P n o l l a h t n e b e\"",
+     "pág. 2 — texto em cor branca: \"VerDate Aug<31>2005 15:19 Aug 01, 2008Jkt 214001PO 00000Frm 00007Fmt 4700Sfmt 4700E:\\FR\\FM\\04AUR1.SGM04AUR1 S E L U R h t i w 0 6 C P D O R P n o l l a h t n e b e\"",
+     "pág. 3 — texto em cor branca: \"VerDate Aug<31>2005 15:19 Aug 01, 2008Jkt 214001PO 00000Frm 00008Fmt 4700Sfmt 4700E:\\FR\\FM\\04AUR1.SGM04AUR1 S E L U R h t i w 0 6 C P D O R P n o l l a h t n e b e\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.66
+  },
+  {
+   "arquivo": "001927.pdf",
+   "bytes": 531529,
+   "achados": {
+    "V3": "REVISAR",
+    "V5": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.48
+  },
+  {
+   "arquivo": "001878.pdf",
+   "bytes": 134833,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.41
+  },
+  {
+   "arquivo": "001928.pdf",
+   "bytes": 104803,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.39
+  },
+  {
+   "arquivo": "001882.pdf",
+   "bytes": 1592202,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 10.54
+  },
+  {
+   "arquivo": "001926.pdf",
+   "bytes": 258481,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.18
+  },
+  {
+   "arquivo": "001931.pdf",
+   "bytes": 149199,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.71
+  },
+  {
+   "arquivo": "001929.pdf",
+   "bytes": 557424,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 4 — texto em cor branca: \"Letter\"",
+     "pág. 21 — texto em cor branca: \"Appendix I Appendixes\"",
+     "pág. 24 — texto em cor branca: \"Appendix II\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 7.55
+  },
+  {
+   "arquivo": "001933.pdf",
+   "bytes": 57517,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.79
+  },
+  {
+   "arquivo": "001936.doc",
+   "bytes": 159232,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001938.pdf",
+   "bytes": 95523,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.27
+  },
+  {
+   "arquivo": "001939.doc",
+   "bytes": 249856,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001934.pdf",
+   "bytes": 237608,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.87
+  },
+  {
+   "arquivo": "001941.pdf",
+   "bytes": 30489,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.59
+  },
+  {
+   "arquivo": "001930.pdf",
+   "bytes": 264641,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"Washington\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 14.99
+  },
+  {
+   "arquivo": "001943.pdf",
+   "bytes": 50122,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.78
+  },
+  {
+   "arquivo": "001945.pdf",
+   "bytes": 29796,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 0.86
+  },
+  {
+   "arquivo": "001940.pdf",
+   "bytes": 432724,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.75
+  },
+  {
+   "arquivo": "001946.pdf",
+   "bytes": 30873,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 1.38
+  },
+  {
+   "arquivo": "001948.pdf",
+   "bytes": 41180,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.38
+  },
+  {
+   "arquivo": "001949.pdf",
+   "bytes": 497074,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.06
+  },
+  {
+   "arquivo": "001947.pdf",
+   "bytes": 462503,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 4.56
+  },
+  {
+   "arquivo": "001952.doc",
+   "bytes": 3510784,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001953.pdf",
+   "bytes": 47637,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Dec<13>2002 08:22 Jan 27, 2003Jkt 200041PO 00000Frm 00477Fmt 8010Sfmt 8010Y:\\SGML\\200041T.XXX200041T\"",
+     "pág. 2 — texto em cor branca: \"VerDate Dec<13>2002 08:22 Jan 27, 2003Jkt 200041PO 00000Frm 00478Fmt 8010Sfmt 8010Y:\\SGML\\200041T.XXX200041T\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.74
+  },
+  {
+   "arquivo": "001951.pdf",
+   "bytes": 94907,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 5.17
+  },
+  {
+   "arquivo": "001955.pdf",
+   "bytes": 348779,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 2.06
+  },
+  {
+   "arquivo": "001950.pdf",
+   "bytes": 297083,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 8.47
+  },
+  {
+   "arquivo": "001956.pdf",
+   "bytes": 757080,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.22
+  },
+  {
+   "arquivo": "001957.pdf",
+   "bytes": 413334,
+   "achados": {
+    "V3": "REVISAR",
+    "V4": "RISCO"
+   },
+   "evidencias": {
+    "V4": [
+     "texto de versão anterior que não está na versão final: \"Revised 12/3/01 th\"",
+     "texto de versão anterior que não está na versão final: \"Approximately 203,800 prisoners\"",
+     "texto de versão anterior que não está na versão final: \"handgun, and about 2%, a military-\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 16.8
+  },
+  {
+   "arquivo": "001959.pdf",
+   "bytes": 54018,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 3.42
+  },
+  {
+   "arquivo": "001958.pdf",
+   "bytes": 1100020,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 15.27
+  },
+  {
+   "arquivo": "001932.pdf",
+   "bytes": 766176,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 47.35
+  },
+  {
+   "arquivo": "001962.doc",
+   "bytes": 311808,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001963.rtf",
+   "bytes": 7995,
+   "recusado": "formato .rtf não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001960.pdf",
+   "bytes": 150735,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 1 — texto em cor branca: \"VerDate Jan<31>2003 15:31 Apr 08, 2003Jkt 200001PO 00000Frm 00001Fmt 4717Sfmt 4717E:\\FR\\FM\\09APR3.SGM09APR3\"",
+     "pág. 2 — texto em cor branca: \"VerDate Jan<31>2003 17:14 Apr 08, 2003Jkt 200001PO 00000Frm 00002Fmt 4701Sfmt 4700E:\\FR\\FM\\09APR3.SGM09APR3\"",
+     "pág. 3 — texto em cor branca: \"VerDate Jan<31>2003 17:14 Apr 08, 2003Jkt 200001PO 00000Frm 00003Fmt 4701Sfmt 4700E:\\FR\\FM\\09APR3.SGM09APR3\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 7.65
+  },
+  {
+   "arquivo": "001964.pdf",
+   "bytes": 80062,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.23
+  },
+  {
+   "arquivo": "001966.doc",
+   "bytes": 136192,
+   "recusado": "formato .doc não suportado: salve como PDF ou .docx",
+   "segundos": 0.0
+  },
+  {
+   "arquivo": "001967.pdf",
+   "bytes": 177990,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.07
+  },
+  {
+   "arquivo": "001961.pdf",
+   "bytes": 620747,
+   "achados": {
+    "T1": "RISCO"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 16 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"noin\"",
+     "pág. 16 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"detec\"",
+     "pág. 18 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \") allba\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 8.29
+  },
+  {
+   "arquivo": "001977.pdf",
+   "bytes": 278229,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 5.36
+  },
+  {
+   "arquivo": "001980.pdf",
+   "bytes": 282988,
+   "achados": {
+    "T1": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 3.68
+  },
+  {
+   "arquivo": "001978.pdf",
+   "bytes": 1778183,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 9.68
+  },
+  {
+   "arquivo": "001985.pdf",
+   "bytes": 594339,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 13 — coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas): \"CUANGO DEVELOPMENT DIAGNOSTIC AND FEASIBILI\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 7.92
+  },
+  {
+   "arquivo": "001989.pdf",
+   "bytes": 639462,
+   "achados": {},
+   "evidencias": {},
+   "versoes": 2,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 1.89
+  },
+  {
+   "arquivo": "001991.pdf",
+   "bytes": 17462,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 0.55
+  },
+  {
+   "arquivo": "001994.pdf",
+   "bytes": 120263,
+   "achados": {
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 2.55
+  },
+  {
+   "arquivo": "001988.pdf",
+   "bytes": 77405,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 8 — texto em cor branca: \"TABLE 2 U.S. IMPORTS FOR CONSUMPTION OF DIAMOND DUST, GRIT, AND POWDER, BY COUNTRY1 (Thousand carats and thousand dollars) Synthetic2 Natural2 2005 2006 2005 2006 Country 64 22 3,630 34 117 11 14,600 \"",
+     "pág. 10 — texto em cor branca: \"TABLE 4 U.S. EXPORTS AND REEXPORTS OF INDUSTRIAL DIAMOND DUST, GRIT, AND POWDER, BY COUNTRY1 (Thousand carats and thousand dollars) Synthetic2 Natural2 2005 2006 2005 2006 Country Quantity Value3 Quan\""
+    ]
+   },
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 6.71
+  },
+  {
+   "arquivo": "001987.pdf",
+   "bytes": 363901,
+   "achados": {
+    "T2": "REVISAR",
+    "V3": "REVISAR"
+   },
+   "evidencias": {},
+   "versoes": 1,
+   "linearizado": true,
+   "dados_apos_o_fim": false,
+   "segundos": 11.97
+  },
+  {
+   "arquivo": "001954.pdf",
+   "erro": "travou (mais de 60 s)"
+  },
+  {
+   "arquivo": "001995.pdf",
+   "bytes": 1991739,
+   "achados": {
+    "T1": "RISCO",
+    "V3": "REVISAR"
+   },
+   "evidencias": {
+    "T1": [
+     "pág. 5 — texto em cor branca: \"Letter\"",
+     "pág. 29 — texto em cor branca: \"Appendix I Appendixes\"",
+     "pág. 32 — texto em cor branca: \"Appendix II\""
+    ]
+   },
+   "versoes": 2,
+   "linearizado": false,
+   "dados_apos_o_fim": false,
+   "segundos": 17.27
+  }
+ ]
+}

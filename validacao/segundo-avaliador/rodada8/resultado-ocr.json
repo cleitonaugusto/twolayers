@@ -1,0 +1,550 @@
+{
+ "A01": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Overall, Part D achieved a level of generic drug use during ",
+  "controle_visivel_no_ocr": true
+ },
+ "A02": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 69, No. 146/Friday, July 30, 2004/Noti",
+  "controle_visivel_no_ocr": true
+ },
+ "A03": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Vol. 73, No. 188",
+  "controle_visivel_no_ocr": true
+ },
+ "A04": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "29 CFR Part 2510 and 2570",
+  "controle_visivel_no_ocr": true
+ },
+ "A05": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Design of Transport Casks with Depleted Uranium Gamma Shield",
+  "controle_visivel_no_ocr": true
+ },
+ "A06": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": true,
+  "controle": "Figure 7.1. Mean diurnal temperature by study area and locat",
+  "controle_visivel_no_ocr": true,
+  "copia_visivel_na_pagina": true
+ },
+ "A07": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A08": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "fonte de 1.6 pt",
+  "acusado_visivel_no_ocr": false,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A09": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 73, No. 188/Friday, September 26, 2008",
+  "controle_visivel_no_ocr": true
+ },
+ "A10": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 73, No. 188/Friday, September 26, 2008",
+  "controle_visivel_no_ocr": true
+ },
+ "A11": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "NCI Smoke-Free Meetings Policy",
+  "controle_visivel_no_ocr": true
+ },
+ "A12": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "NCI Smoke-Free Meetings Policy",
+  "controle_visivel_no_ocr": true
+ },
+ "A13": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Embassy of the United States of America ▪ Public Affairs Sec",
+  "controle_visivel_no_ocr": true
+ },
+ "A14": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": null,
+  "controle": "talkbyP.Gay:SM:(cid:21)hhhatILC",
+  "controle_visivel_no_ocr": false
+ },
+ "A15": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A16": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "United States General Accounting Office",
+  "controle_visivel_no_ocr": true
+ },
+ "A17": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 74, No. 9/Wednesday, January 14, 2009/",
+  "controle_visivel_no_ocr": true
+ },
+ "A18": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": true,
+  "controle": "Fig. A-5. Comparison of Multiplication Estimates Obtained Fr",
+  "controle_visivel_no_ocr": true,
+  "copia_visivel_na_pagina": true
+ },
+ "A19": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Model for Row Crops:",
+  "controle_visivel_no_ocr": false
+ },
+ "A20": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 70, No. 15/Tuesday, January 25, 2005/N",
+  "controle_visivel_no_ocr": true
+ },
+ "A21": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Middle East Region and",
+  "controle_visivel_no_ocr": true
+ },
+ "A22": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 71, No. 158/Wednesday, August 16, 2006",
+  "controle_visivel_no_ocr": true
+ },
+ "A23": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 72, No. 189/Monday, October 1, 2007/No",
+  "controle_visivel_no_ocr": true
+ },
+ "A24": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Medicines are sometimes prescribed for conditions that are n",
+  "controle_visivel_no_ocr": true
+ },
+ "A25": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Activity of Aged Downpipe DOCs",
+  "controle_visivel_no_ocr": true
+ },
+ "A26": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "United States General Accounting Office",
+  "controle_visivel_no_ocr": true
+ },
+ "A27": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "40 CFR Ch. I (7–1–06 Edition)",
+  "controle_visivel_no_ocr": true
+ },
+ "A28": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 71, No. 158/Wednesday, August 16, 2006",
+  "controle_visivel_no_ocr": true
+ },
+ "A29": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "wards a gas tank full to operate my car and",
+  "controle_visivel_no_ocr": true
+ },
+ "A30": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Removal of Oiled Wrack and Debris",
+  "controle_visivel_no_ocr": true
+ },
+ "A31": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "INVESTIGATION OF THE MOVING-BED COPPER OXIDE PROCESS FOR FLU",
+  "controle_visivel_no_ocr": true
+ },
+ "A32": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Quasicrystals as cluster aggregates",
+  "controle_visivel_no_ocr": true
+ },
+ "A33": {
+  "classificacao": "pagina_nao_avaliou",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Journal of AridEnvironmentsJournalofAridEnvironments72(2008)",
+  "controle_visivel_no_ocr": false
+ },
+ "A34": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Figure 3. A schematic description of tbe experimental setup.",
+  "controle_visivel_no_ocr": true
+ },
+ "A35": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 70, No. 100/Wednesday, May 25, 2005/Pr",
+  "controle_visivel_no_ocr": true
+ },
+ "A36": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "49 CFR Ch. V (10–1–02 Edition)",
+  "controle_visivel_no_ocr": true
+ },
+ "A37": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "ИНСТРУКЦИИ К ПРОГРАММЕ «ВИЗЫ ДЛЯ ИММИГРАНТОВ РАЗНЫХ",
+  "controle_visivel_no_ocr": false
+ },
+ "A38": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Register of New Fruit and Nut Varieties",
+  "controle_visivel_no_ocr": true
+ },
+ "A39": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "where a is 0.1957, b is 0.404, and c is 0.02852.",
+  "controle_visivel_no_ocr": true
+ },
+ "A40": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Total Internal Volume (m3)",
+  "controle_visivel_no_ocr": true
+ },
+ "A41": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "acusado_visivel_no_ocr": true,
+  "controle": "Forsman, E.D., and R. Anthony. 1999. “Analysis of demographi",
+  "controle_visivel_no_ocr": true,
+  "copia_visivel_na_pagina": true
+ },
+ "A42": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "fonte de 0.1 pt",
+  "acusado_visivel_no_ocr": null,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A43": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "High Water Mark (HWM)",
+  "controle_visivel_no_ocr": true
+ },
+ "A44": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A45": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Fill-in-the-Blank",
+  "controle_visivel_no_ocr": true
+ },
+ "A46": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "SDM GROSS SALES AND NET PROFITABILITY (2000 – 2005)",
+  "controle_visivel_no_ocr": true
+ },
+ "A47": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "MinistryofEducation,SchoolofMathematics,ShandongUniversity,P",
+  "controle_visivel_no_ocr": false
+ },
+ "A48": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A49": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 74, No. 9/Wednesday, January 14, 2009/",
+  "controle_visivel_no_ocr": true
+ },
+ "A50": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Times calls this ‘‘the worst kind of",
+  "controle_visivel_no_ocr": true
+ },
+ "A51": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "fonte de 0.8 pt",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Colonies of ANTS supporting",
+  "controle_visivel_no_ocr": true
+ },
+ "A52": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 73, No. 179/Monday, September 15, 2008",
+  "controle_visivel_no_ocr": true
+ },
+ "A53": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Aviation Administration, DOT",
+  "controle_visivel_no_ocr": true
+ },
+ "A54": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "To extend the temporary suspension of duty on yarn of combed",
+  "controle_visivel_no_ocr": true
+ },
+ "A55": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": true,
+  "controle": "Characterisation of the FAA foam block fire source",
+  "controle_visivel_no_ocr": false,
+  "copia_visivel_na_pagina": true
+ },
+ "A56": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": true,
+  "controle": "SAFER CHECKOUT RESULTS (Front)....................... CC 3-9",
+  "controle_visivel_no_ocr": true,
+  "copia_visivel_na_pagina": true
+ },
+ "A57": {
+  "classificacao": "pagina_nao_avaliou",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "tower-mounted radar, for example,",
+  "controle_visivel_no_ocr": true
+ },
+ "A58": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Number of generic faults in AGH system since 1995 to January",
+  "controle_visivel_no_ocr": true
+ },
+ "A59": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 73, No. 150/Monday, August 4, 2008/Rul",
+  "controle_visivel_no_ocr": true
+ },
+ "A60": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": true,
+  "controle": "This Health Hazard Evaluation (HHE) report and any recommend",
+  "controle_visivel_no_ocr": true,
+  "copia_visivel_na_pagina": true
+ },
+ "A61": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": true,
+  "controle": "Lower Chehalis and Upper Chehalis",
+  "controle_visivel_no_ocr": true,
+  "copia_visivel_na_pagina": true
+ },
+ "A62": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 66, No. 93/Monday, May 14, 2001/Rules ",
+  "controle_visivel_no_ocr": true
+ },
+ "A63": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "1.1.1. Regulations and Dam Hazard Classification............",
+  "controle_visivel_no_ocr": true
+ },
+ "A64": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": true,
+  "controle": "Slovensko-český ženský fond",
+  "controle_visivel_no_ocr": false,
+  "copia_visivel_na_pagina": true
+ },
+ "A65": {
+  "classificacao": "pagina_nao_avaliou",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "ATHLETEMobility System (2)Small Pressurized Rover (SPR)Habit",
+  "controle_visivel_no_ocr": false
+ },
+ "A66": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": true,
+  "controle": "U.S. Department of the Interior",
+  "controle_visivel_no_ocr": true,
+  "copia_visivel_na_pagina": true
+ },
+ "A67": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Federal Register/Vol. 68, No. 50/Friday, March 14, 2003/Noti",
+  "controle_visivel_no_ocr": true
+ },
+ "A68": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "P1 HANDRAILS AND WIFS, FACE 4 (Cont)",
+  "controle_visivel_no_ocr": true
+ },
+ "A69": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": null,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A70": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Galapagos Rift Expedition – Grades 7-8",
+  "controle_visivel_no_ocr": true
+ },
+ "A71": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "fora da área da página",
+  "acusado_visivel_no_ocr": false,
+  "controle": "The Origins of International",
+  "controle_visivel_no_ocr": true
+ },
+ "A72": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Department of Health and Human Services",
+  "controle_visivel_no_ocr": true
+ },
+ "A73": {
+  "classificacao": "oculto_reconhecido",
+  "motivo": "texto em cor branca",
+  "acusado_visivel_no_ocr": false,
+  "controle": "FEDERAL RESERVE’S FIRST MONETARY POLICY",
+  "controle_visivel_no_ocr": true
+ },
+ "A74": {
+  "classificacao": "oculto_estrutural",
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "",
+  "controle_visivel_no_ocr": null
+ },
+ "A75": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "http://www.nida.nih.gov/about/smokingpolicy.html",
+  "controle_visivel_no_ocr": true
+ },
+ "A76": {
+  "classificacao": "misto",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Volumetric water content (m3m-3)",
+  "controle_visivel_no_ocr": true
+ },
+ "A77": {
+  "classificacao": "pagina_confirmou_invisivel",
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "acusado_visivel_no_ocr": false,
+  "controle": "Preliminary Mission Categories to Meet",
+  "controle_visivel_no_ocr": true
+ }
+}

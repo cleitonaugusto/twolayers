@@ -1,0 +1,541 @@
+{
+ "A01": {
+  "arquivo": "001036.pdf",
+  "pagina": 28,
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "trecho": "EXECUTIVE SUMMARY",
+  "classificacao": "oculto_estrutural"
+ },
+ "A02": {
+  "arquivo": "001665.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate jul<14>2003 20:28 Jul 29, 2004Jkt 203001PO 00000Frm 00154Fmt 4703Sfmt 4703E:\\FR\\FM\\30JYN1.SGM30JYN1",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A03": {
+  "arquivo": "001355.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug<31>2005 21:09 Sep 25, 2008Jkt 214001PO 00000Frm 00001Fmt 4748Sfmt 4748E:\\FR\\FM\\26SECN.SGM26SECN 5 S L A S O P O R P h t i w 6 7 C P 1 D O R P n o n o s n b o r s h i",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A04": {
+  "arquivo": "001960.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Jan<31>2003 15:31 Apr 08, 2003Jkt 200001PO 00000Frm 00001Fmt 4717Sfmt 4717E:\\FR\\FM\\09APR3.SGM09APR3",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A05": {
+  "arquivo": "000280.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "Высокопрочн",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A06": {
+  "arquivo": "001302.pdf",
+  "pagina": 13,
+  "motivo": "texto em cor branca",
+  "trecho": "Figure 7.1. Mean diurnal temperature by study area and location type for Southwestern Willow Flycatcher microclimate data along the Virgin 2003. June–August Colorado regions, lower River and",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A07": {
+  "arquivo": "001296.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "+ Stripofsquares",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A08": {
+  "arquivo": "000547.pdf",
+  "pagina": 7,
+  "motivo": "fonte de 1.6 pt",
+  "trecho": "GANGTOK",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A09": {
+  "arquivo": "001391.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug<31>2005 18:07 Sep 25, 2008Jkt 214001PO 00000Frm 00036Fmt 4703Sfmt 4703E:\\FR\\FM\\26SEN1.SGM26SEN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A10": {
+  "arquivo": "001364.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug<31>2005 18:07 Sep 25, 2008Jkt 214001PO 00000Frm 00037Fmt 4703Sfmt 4703E:\\FR\\FM\\26SEN1.SGM26SEN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A11": {
+  "arquivo": "001730.pdf",
+  "pagina": 1,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Page 1 of 4",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A12": {
+  "arquivo": "001649.pdf",
+  "pagina": 1,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Page 1 of 4",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A13": {
+  "arquivo": "001388.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "DOS photos",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A14": {
+  "arquivo": "001961.pdf",
+  "pagina": 16,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "noin",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A15": {
+  "arquivo": "001029.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "FEDERAL TRADE COMMISSION | 1.877.FTC.HELP | FOR THE CONSUMER | WWW.FTC.GOV",
+  "classificacao": "oculto_estrutural"
+ },
+ "A16": {
+  "arquivo": "001929.pdf",
+  "pagina": 4,
+  "motivo": "texto em cor branca",
+  "trecho": "Letter",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A17": {
+  "arquivo": "001363.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Nov<24>2008 21:01 Jan 13, 2009Jkt 217001PO 00000Frm 00022Fmt 4703Sfmt 4703E:\\FR\\FM\\14JAN1.SGM14JAN1 I S E C T O N h t i w 0 7 C P 1 D O R P n o s t r e b o r s",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A18": {
+  "arquivo": "000359.pdf",
+  "pagina": 66,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "RMS ERROR: 6.7%",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A19": {
+  "arquivo": "001305.pdf",
+  "pagina": 2,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "2 Wetting Front ■ June 2008",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A20": {
+  "arquivo": "001663.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate jul<14>2003 13:14 Jan 24, 2005Jkt 205001PO 00000Frm 00061Fmt 4703Sfmt 4703E:\\FR\\FM\\25JAN1.SGM25JAN1",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A21": {
+  "arquivo": "001372.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "1390_A1-A7 11/4/08 4:36 PM Page 1 330-383/B428-S/40005",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A22": {
+  "arquivo": "001297.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug<31>2005 20:24 Aug 15, 2006Jkt 208001PO 00000Frm 00085Fmt 4703Sfmt 4703E:\\FR\\FM\\16AUN1.SGM16AUN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A23": {
+  "arquivo": "001367.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 18:31 Sep 28, 2007Jkt 214001PO 00000Frm 00112Fmt 4703Sfmt 4703E:\\FR\\FM\\01OCN1.SGM01OCN1",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A24": {
+  "arquivo": "001796.pdf",
+  "pagina": 6,
+  "motivo": "fora da área da página",
+  "trecho": "Actonel (risedronate sodium) PRODUCT INFO Product Code 0149-0471 Dosage Form TABLET, FILM COATED Route Of Administration ORAL DEA Schedule INGREDIENTS Name (Active Moiety) risedronate sodium (risedron",
+  "classificacao": "oculto_estrutural"
+ },
+ "A25": {
+  "arquivo": "000150.pdf",
+  "pagina": 14,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "turbine outlet (50k)",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A26": {
+  "arquivo": "001995.pdf",
+  "pagina": 5,
+  "motivo": "texto em cor branca",
+  "trecho": "Letter",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A27": {
+  "arquivo": "000811.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug<31>2005 02:58 Aug 08, 2006Jkt 208146PO 00000Frm 00444Fmt 8010Sfmt 8010Y:\\SGML\\208146.XXX208146",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A28": {
+  "arquivo": "001281.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug<31>2005 20:24 Aug 15, 2006Jkt 208001PO 00000Frm 00086Fmt 4703Sfmt 4703E:\\FR\\FM\\16AUN1.SGM16AUN1 I S E C T O N h t i w 5 6 C P 1 D O R P n o i n i t n e l j",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A29": {
+  "arquivo": "000586.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug 31 2005 03:41 Jun 20, 2008Jkt 069060PO 00000Frm 00054Fmt 4624Sfmt 0634E:\\CR\\FM\\G19JN6.045S19JNPT1 E T A N E S h t i w 9 6 C P 1 D O R P n o l l e b j",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A30": {
+  "arquivo": "000149.pdf",
+  "pagina": 9,
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "trecho": ", NOAA OR&R 2000.)",
+  "classificacao": "oculto_estrutural"
+ },
+ "A31": {
+  "arquivo": "001528.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "Pittsburgh Coal Conference http://www.petc.doe.gov/docs/pitclcon/fluegas.html",
+  "classificacao": "oculto_estrutural"
+ },
+ "A32": {
+  "arquivo": "001276.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "nmat1244.indd 759 nmat1244.indd 759 13/10/04 3:06:21 pm 13/10/04 3:06:21 pm",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A33": {
+  "arquivo": "001099.pdf",
+  "pagina": 2,
+  "motivo": "texto em cor branca",
+  "trecho": "ARTICLEINPRESS",
+  "classificacao": "pagina_nao_avaliou"
+ },
+ "A34": {
+  "arquivo": "000886.pdf",
+  "pagina": 10,
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "trecho": "rrTpTrrp-T7-prT.,",
+  "classificacao": "oculto_estrutural"
+ },
+ "A35": {
+  "arquivo": "000015.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate jul<14>2003 17:25 May 24, 2005Jkt 205001PO 00000Frm 00050Fmt 4702Sfmt 4702E:\\FR\\FM\\25MYP1.SGM25MYP1",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A36": {
+  "arquivo": "000825.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate 0ct<31>2002 14:20 Dec 13, 2002Jkt 197204PO 00000Frm 00176Fmt 8010Sfmt 8010Y:\\SGML\\197204T.XXX197204T",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A37": {
+  "arquivo": "000373.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "INSTRUCTIONS FOR THE 2008 DIVERSITY IMMIGRANT VISA PROGRAM (DV-2008)08)",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A38": {
+  "arquivo": "001037.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "FruitRegister.indd 1509",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A39": {
+  "arquivo": "001278.pdf",
+  "pagina": 41,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Nonlinear Regression",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A40": {
+  "arquivo": "000762.pdf",
+  "pagina": 61,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Table 1. System Summary.",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A41": {
+  "arquivo": "001094.pdf",
+  "pagina": 8,
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "trecho": "http://www.stream.fs.fed.us/streamnt/pdf/SN_7-00.pdf",
+  "classificacao": "oculto_estrutural"
+ },
+ "A42": {
+  "arquivo": "001157.pdf",
+  "pagina": 1,
+  "motivo": "fonte de 0.1 pt",
+  "trecho": "(cid:0)(cid:2)(cid:1)(cid:4)(cid:3)(cid:6)(cid:5)(cid:8)(cid:7)(cid:10)(cid:9)(cid:12)(cid:11)(cid:14)(cid:13)(cid:15)(cid:11)(cid:17)(cid:16)(cid:19)(cid:18)(cid:20)(cid:7)(cid:10)(cid:21)(cid:12)(ci",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A43": {
+  "arquivo": "000152.pdf",
+  "pagina": 59,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "cagoul",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A44": {
+  "arquivo": "000826.pdf",
+  "pagina": 15,
+  "motivo": "texto em cor branca",
+  "trecho": "RCC-DTO-007",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A45": {
+  "arquivo": "000162.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "WORD BANK",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A46": {
+  "arquivo": "001985.pdf",
+  "pagina": 13,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "CUANGO DEVELOPMENT DIAGNOSTIC AND FEASIBILI",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A47": {
+  "arquivo": "001061.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "raphy",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A48": {
+  "arquivo": "000954.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "13-slurry seal_020206.qxd 6/14/2006 9:56 AM Page 1",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A49": {
+  "arquivo": "001368.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Nov<24>2008 21:01 Jan 13, 2009Jkt 217001PO 00000Frm 00021Fmt 4703Sfmt 4703E:\\FR\\FM\\14JAN1.SGM14JAN1 I S E C T O N h t i w 0 7 C P 1 D O R P n o s t r e b o r s",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A50": {
+  "arquivo": "000878.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug 31 2005 02:42 Mar 22, 2007Jkt 059060PO 00000Frm 00052Fmt 7634Sfmt 0634E:\\CR\\FM\\K21MR7.128H21MRPT1 E S U O H h t i w 2 6 C P 1 D O R P n o n a r o c r o c j",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A51": {
+  "arquivo": "000751.pdf",
+  "pagina": 1,
+  "motivo": "fonte de 0.8 pt",
+  "trecho": "QuickTime™ and a Sorenson Video 3 decompressor are needed to see this picture. QuickTime™ and a Sorenson Video 3 decompressor are needed to see this picture. QuickTime™ and a Sorenson Video 3 decompre",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A52": {
+  "arquivo": "001030.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "I S E C T O N h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m VerDate Aug<31>2005 20:22 Sep 12, 2008Jkt 214001PO 00000Frm 00071Fmt 4703Sfmt 4703E:\\FR\\FM\\15SEN1.SGM15SEN1",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A53": {
+  "arquivo": "001953.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Dec<13>2002 08:22 Jan 27, 2003Jkt 200041PO 00000Frm 00477Fmt 8010Sfmt 8010Y:\\SGML\\200041T.XXX200041T",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A54": {
+  "arquivo": "000834.pdf",
+  "pagina": 4,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug 31 2005 21:32 Dec 13, 2007Jkt 069200PO 00000Frm 00001Fmt 6652Sfmt 6201E:\\BILLS\\H4476.IHH4476 S L L I B h t i w 6 6 C P 1 D O R P n o l l i t s k c o t s m",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A55": {
+  "arquivo": "001869.pdf",
+  "pagina": 33,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Temps (s)",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A56": {
+  "arquivo": "001045.pdf",
+  "pagina": 8,
+  "motivo": "texto em cor branca",
+  "trecho": "EVA PREBREATHE CUE CARD",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A57": {
+  "arquivo": "001298.pdf",
+  "pagina": 3,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Encoded/compressed dataMode selection",
+  "classificacao": "pagina_nao_avaliou"
+ },
+ "A58": {
+  "arquivo": "001510.pdf",
+  "pagina": 7,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Vacuum Pump Uninteruptable Power Supply Transformer (High Voltage) Transducer Thermoresistance Thermocouple Switch Site Power Supply Peristaltic Pump Oil circulation pump Ionization Chamber Indicator ",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A59": {
+  "arquivo": "001897.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Aug<31>2005 15:19 Aug 01, 2008Jkt 214001PO 00000Frm 00006Fmt 4700Sfmt 4700E:\\FR\\FM\\04AUR1.SGM04AUR1 S E L U R h t i w 0 6 C P D O R P n o l l a h t n e b e",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A60": {
+  "arquivo": "001780.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "This Health Hazard Evaluation (HHE) report and any recommendations made herein are for the specific facility evaluated and may not be universally This Health Hazard Evaluation (HHE) report and any rec",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A61": {
+  "arquivo": "001930.pdf",
+  "pagina": 1,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Washington",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A62": {
+  "arquivo": "000196.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate 11<MAY>200017:38 May 11, 2001Jkt 194001PO 00000Frm 00005Fmt 4700Sfmt 4700E:\\FR\\FM\\14MYR1.SGMpfrm04PsN: 14MYR1",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A63": {
+  "arquivo": "001370.pdf",
+  "pagina": 2,
+  "motivo": "texto em cor branca",
+  "trecho": "THREE",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A64": {
+  "arquivo": "001257.pdf",
+  "pagina": 2,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Amenca",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A65": {
+  "arquivo": "000737.pdf",
+  "pagina": 9,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "ESMD Broad Agency Announcement | Lunar Surface Systems Concepts Studies | June 6, 20089",
+  "classificacao": "pagina_nao_avaliou"
+ },
+ "A66": {
+  "arquivo": "000371.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "Park News",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A67": {
+  "arquivo": "000013.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate Jan<31>2003 16:21 Mar 13, 2003Jkt 200001PO 00000Frm 00039Fmt 4703Sfmt 4703E:\\FR\\FM\\14MRN1.SGM14MRN1",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A68": {
+  "arquivo": "001043.pdf",
+  "pagina": 10,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "jsc48024-113_006.cnv",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A69": {
+  "arquivo": "001482.pdf",
+  "pagina": 1,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Step",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A70": {
+  "arquivo": "001686.pdf",
+  "pagina": 2,
+  "motivo": "fora da área da página",
+  "trecho": "oceanexplorer.noaa.gov Galapagos Rift Expedition – Grades 7-8 Focus: Locating hydrothermal vents",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A71": {
+  "arquivo": "001385.pdf",
+  "pagina": 1,
+  "motivo": "fora da área da página",
+  "trecho": "NASA History Division Office of Policy and Plans NASA Headquarters Washington, DC 20546 NP-1998-10-244-HQ November 1998",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A72": {
+  "arquivo": "001035.pdf",
+  "pagina": 1,
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "trecho": "Report Template Update = 04-30-05_rev.12",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A73": {
+  "arquivo": "000584.pdf",
+  "pagina": 1,
+  "motivo": "texto em cor branca",
+  "trecho": "VerDate 11-MAY-200017:38 Jun 29, 2005Jkt 000000PO 00000Frm 00001Fmt 5011Sfmt 501121981.TXTSBANK4PsN: SBANK4",
+  "classificacao": "oculto_reconhecido"
+ },
+ "A74": {
+  "arquivo": "001770.pdf",
+  "pagina": 1,
+  "motivo": "modo de renderização invisível (Tr 3)",
+  "trecho": "MURFREESBORO, TENNESSEE NDB FQW 371 T AWOS-3 133.975 2700 127 (18.6) BNA 114.1 BNA NASHVILLE Chan 88",
+  "classificacao": "oculto_estrutural"
+ },
+ "A75": {
+  "arquivo": "001737.pdf",
+  "pagina": 1,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Page1of4",
+  "classificacao": "pagina_confirmou_invisivel"
+ },
+ "A76": {
+  "arquivo": "001285.pdf",
+  "pagina": 9,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "mostly sand",
+  "classificacao": "misto"
+ },
+ "A77": {
+  "arquivo": "000744.pdf",
+  "pagina": 10,
+  "motivo": "coberto por retângulo ou tarja desenhada por cima (continua legível para máquinas)",
+  "trecho": "Lunar Orbit Assembly",
+  "classificacao": "pagina_confirmou_invisivel"
+ }
+}

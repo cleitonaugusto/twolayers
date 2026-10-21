@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twolayers"
+version = "0.18.0"
+description = "Perícia de documentos lidos por IA (duas camadas: o que a pessoa vê e o que a máquina lê): texto oculto, comandos para IA, vazamento, linha do tempo e cadeia de custódia, com taxa de erro publicada"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Cleiton Augusto Correa Bezerra" }]
+requires-python = ">=3.10"
+dependencies = []
+keywords = ["document-forensics", "prompt-injection", "hidden-text", "pdf", "docx", "pericia", "lgpd", "ia", "juridico"]
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Natural Language :: Portuguese (Brazilian)",
+]
+
+[project.optional-dependencies]
+pdf = ["pdfminer.six>=20231228"]
+render = ["pypdfium2>=4"]  # confere na página desenhada (reduz falso positivo de letra branca e tarja)
+semantico = ["transformers>=4.40", "torch>=2.1", "sentencepiece", "protobuf"]
+dev = ["pytest>=7", "pdfminer.six>=20231228"]
+
+[project.scripts]
+verificar-peca = "twolayers.cli_peca:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

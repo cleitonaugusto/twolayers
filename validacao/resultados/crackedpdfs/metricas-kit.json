@@ -1,0 +1,132 @@
+{
+ "arquivos": 2919,
+ "sem_leitura": 0,
+ "instrucao": {
+  "precisao": 1.0,
+  "cobertura": 0.04,
+  "f1": 0.077,
+  "vp": 39,
+  "fp": 0,
+  "fn": 934,
+  "vn": 1946,
+  "taxa_acusacao_por_papel": {
+   "benign_confounder": "0/973",
+   "benign_original": "0/973",
+   "injected_attack": "39/973"
+  },
+  "acerto_pareado_injetado_vs_confundidor": 0.04,
+  "cobertura_por_familia": {
+   "existing_stream_patch": "2/73",
+   "header_footer_like": "7/68",
+   "in_page_invisible_text": "3/74",
+   "in_page_low_contrast_text": "3/62",
+   "in_page_split_text_objects": "1/46",
+   "in_page_tiny_text": "4/68",
+   "in_page_white_text": "4/51",
+   "layout_mimicry": "5/79",
+   "margin_microtext": "4/61",
+   "microglyph_steganography": "0/66",
+   "near_margin_normal_font": "2/70",
+   "plain_single_block": "2/52",
+   "semantic_fragmentation": "1/57",
+   "split_text_objects": "1/66",
+   "steganographic_acrostic": "0/80"
+  }
+ },
+ "oculto": {
+  "precisao": 0.5,
+  "cobertura": 0.932,
+  "f1": 0.651,
+  "vp": 907,
+  "fp": 907,
+  "fn": 66,
+  "vn": 1039,
+  "taxa_acusacao_por_papel": {
+   "benign_confounder": "907/973",
+   "benign_original": "0/973",
+   "injected_attack": "907/973"
+  },
+  "acerto_pareado_injetado_vs_confundidor": 0.0,
+  "cobertura_por_familia": {
+   "existing_stream_patch": "73/73",
+   "header_footer_like": "68/68",
+   "in_page_invisible_text": "74/74",
+   "in_page_low_contrast_text": "62/62",
+   "in_page_split_text_objects": "46/46",
+   "in_page_tiny_text": "68/68",
+   "in_page_white_text": "51/51",
+   "layout_mimicry": "79/79",
+   "margin_microtext": "61/61",
+   "microglyph_steganography": "0/66",
+   "near_margin_normal_font": "70/70",
+   "plain_single_block": "52/52",
+   "semantic_fragmentation": "57/57",
+   "split_text_objects": "66/66",
+   "steganographic_acrostic": "80/80"
+  }
+ },
+ "oculto_e_instr": {
+  "precisao": 1.0,
+  "cobertura": 0.04,
+  "f1": 0.077,
+  "vp": 39,
+  "fp": 0,
+  "fn": 934,
+  "vn": 1946,
+  "taxa_acusacao_por_papel": {
+   "benign_confounder": "0/973",
+   "benign_original": "0/973",
+   "injected_attack": "39/973"
+  },
+  "acerto_pareado_injetado_vs_confundidor": 0.04,
+  "cobertura_por_familia": {
+   "existing_stream_patch": "2/73",
+   "header_footer_like": "7/68",
+   "in_page_invisible_text": "3/74",
+   "in_page_low_contrast_text": "3/62",
+   "in_page_split_text_objects": "1/46",
+   "in_page_tiny_text": "4/68",
+   "in_page_white_text": "4/51",
+   "layout_mimicry": "5/79",
+   "margin_microtext": "4/61",
+   "microglyph_steganography": "0/66",
+   "near_margin_normal_font": "2/70",
+   "plain_single_block": "2/52",
+   "semantic_fragmentation": "1/57",
+   "split_text_objects": "1/66",
+   "steganographic_acrostic": "0/80"
+  }
+ },
+ "oculto_ou_instr": {
+  "precisao": 0.5,
+  "cobertura": 0.932,
+  "f1": 0.651,
+  "vp": 907,
+  "fp": 907,
+  "fn": 66,
+  "vn": 1039,
+  "taxa_acusacao_por_papel": {
+   "benign_confounder": "907/973",
+   "benign_original": "0/973",
+   "injected_attack": "907/973"
+  },
+  "acerto_pareado_injetado_vs_confundidor": 0.0,
+  "cobertura_por_familia": {
+   "existing_stream_patch": "73/73",
+   "header_footer_like": "68/68",
+   "in_page_invisible_text": "74/74",
+   "in_page_low_contrast_text": "62/62",
+   "in_page_split_text_objects": "46/46",
+   "in_page_tiny_text": "68/68",
+   "in_page_white_text": "51/51",
+   "layout_mimicry": "79/79",
+   "margin_microtext": "61/61",
+   "microglyph_steganography": "0/66",
+   "near_margin_normal_font": "70/70",
+   "plain_single_block": "52/52",
+   "semantic_fragmentation": "57/57",
+   "split_text_objects": "66/66",
+   "steganographic_acrostic": "80/80"
+  }
+ }
+}

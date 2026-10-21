@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>twolayers — mascote: coruja-documento com um olho comum e um olho-lupa que revela a linha escondida</title>
+  <defs>
+    <clipPath id="lente"><circle cx="312" cy="214" r="44"/></clipPath>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f1fb"/><stop offset="1" stop-color="#d6e6f7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fundo -->
+  <circle cx="256" cy="256" r="240" fill="url(#fundo)"/>
+
+  <!-- tufos (orelhas) -->
+  <path d="M150 150 L166 84 L214 128 Z" fill="#1e3a5f"/>
+  <path d="M362 150 L346 84 L298 128 Z" fill="#1e3a5f"/>
+
+  <!-- corpo = folha de documento -->
+  <rect x="140" y="112" width="232" height="300" rx="46" fill="#ffffff" stroke="#1e3a5f" stroke-width="10"/>
+
+  <!-- asas -->
+  <path d="M142 250 C104 280 106 350 146 384" fill="none" stroke="#1e3a5f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M370 250 C408 280 406 350 366 384" fill="none" stroke="#1e3a5f" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- olho esquerdo: o que a pessoa vê -->
+  <circle cx="200" cy="214" r="44" fill="#ffffff" stroke="#1e3a5f" stroke-width="10"/>
+  <circle cx="204" cy="218" r="20" fill="#1e3a5f"/>
+  <circle cx="211" cy="210" r="6" fill="#ffffff"/>
+
+  <!-- olho direito: lupa que mostra a camada da máquina -->
+  <line x1="344" y1="248" x2="412" y2="318" stroke="#1e3a5f" stroke-width="18" stroke-linecap="round"/>
+  <line x1="344" y1="248" x2="412" y2="318" stroke="#f2b134" stroke-width="8" stroke-linecap="round"/>
+  <g clip-path="url(#lente)">
+    <rect x="266" y="168" width="92" height="92" fill="#f8fafc"/>
+    <rect x="276" y="186" width="70" height="7" rx="3.5" fill="#94a3b8"/>
+    <rect x="276" y="200" width="56" height="7" rx="3.5" fill="#94a3b8"/>
+    <rect x="270" y="213" width="84" height="12" rx="3" fill="#fde2e1"/>
+    <rect x="276" y="216" width="64" height="6" rx="3" fill="#dc2626"/>
+    <rect x="276" y="232" width="62" height="7" rx="3.5" fill="#94a3b8"/>
+  </g>
+  <circle cx="312" cy="214" r="44" fill="none" stroke="#1e3a5f" stroke-width="10"/>
+  <circle cx="312" cy="214" r="51" fill="none" stroke="#f2b134" stroke-width="5"/>
+
+  <!-- bico -->
+  <path d="M244 254 L268 254 L256 276 Z" fill="#f2b134" stroke="#1e3a5f" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- barriga: linhas do texto visível -->
+  <rect x="190" y="304" width="132" height="9" rx="4.5" fill="#cbd5e1"/>
+  <rect x="190" y="324" width="112" height="9" rx="4.5" fill="#cbd5e1"/>
+  <rect x="190" y="344" width="124" height="9" rx="4.5" fill="#cbd5e1"/>
+  <rect x="190" y="364" width="84" height="9" rx="4.5" fill="#cbd5e1"/>
+
+  <!-- pés -->
+  <path d="M206 410 l-10 18 M216 410 v20 M226 410 l10 18" stroke="#f2b134" stroke-width="7" stroke-linecap="round"/>
+  <path d="M286 410 l-10 18 M296 410 v20 M306 410 l10 18" stroke="#f2b134" stroke-width="7" stroke-linecap="round"/>
+</svg>

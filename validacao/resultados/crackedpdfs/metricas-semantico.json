@@ -1,0 +1,33 @@
+{
+ "regra": "oculto_e_instrucao_por_significado",
+ "limiar": 0.9,
+ "precisao": 0.015,
+ "cobertura": 0.005,
+ "f1": 0.008,
+ "vp": 5,
+ "fp": 319,
+ "fn": 968,
+ "taxa_acusacao_por_papel": {
+  "benign_confounder": "319/973",
+  "benign_original": "0/973",
+  "injected_attack": "5/973"
+ },
+ "acerto_pareado_injetado_vs_confundidor": 0.004,
+ "cobertura_por_familia": {
+  "existing_stream_patch": "0/73",
+  "header_footer_like": "0/68",
+  "in_page_invisible_text": "0/74",
+  "in_page_low_contrast_text": "1/62",
+  "in_page_split_text_objects": "1/46",
+  "in_page_tiny_text": "0/68",
+  "in_page_white_text": "0/51",
+  "layout_mimicry": "0/79",
+  "margin_microtext": "0/61",
+  "microglyph_steganography": "0/66",
+  "near_margin_normal_font": "2/70",
+  "plain_single_block": "0/52",
+  "semantic_fragmentation": "1/57",
+  "split_text_objects": "0/66",
+  "steganographic_acrostic": "0/80"
+ }
+}

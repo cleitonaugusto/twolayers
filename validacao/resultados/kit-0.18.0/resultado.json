@@ -1,0 +1,119 @@
+{
+  "ferramenta": "linha_do_tempo + custodia + peca",
+  "kit": "twolayers 0.18.0",
+  "python": "3.10.12",
+  "medido_em": "2026-10-21T02:00:05+00:00",
+  "corpus_sha256": "1aa4e4881e4bb064b97fa5b2ff47b6af267cc65eb7ba2692ea1ceafe2feb3e1e",
+  "casos": 61,
+  "casos_reais": 6,
+  "metricas": {
+    "custódia: adulteração detectada (assinada + âncora do laudo)": {
+      "casos": 6,
+      "acertos": 6,
+      "taxa_de_acerto": 1.0
+    },
+    "custódia: adulteração detectada (só encadeamento)": {
+      "casos": 6,
+      "acertos": 4,
+      "taxa_de_acerto": 0.667
+    },
+    "docx: alterações rastreadas (contagem por tipo)": {
+      "casos": 3,
+      "acertos": 3,
+      "taxa_de_acerto": 1.0
+    },
+    "docx: autores das alterações": {
+      "casos": 2,
+      "acertos": 2,
+      "taxa_de_acerto": 1.0
+    },
+    "docx: comentários": {
+      "casos": 3,
+      "acertos": 3,
+      "taxa_de_acerto": 1.0
+    },
+    "docx: sessão em que o texto entrou": {
+      "casos": 18,
+      "acertos": 18,
+      "taxa_de_acerto": 1.0
+    },
+    "docx: sessão em que o texto foi escondido": {
+      "casos": 18,
+      "acertos": 18,
+      "taxa_de_acerto": 1.0
+    },
+    "docx: texto oculto": {
+      "casos": 27,
+      "acertos": 27,
+      "taxa_de_acerto": 1.0,
+      "vp": 18,
+      "fp": 0,
+      "fn": 0,
+      "sensibilidade": 1.0,
+      "precisao": 1.0
+    },
+    "pdf: comando para IA (inclusive na camada de OCR)": {
+      "casos": 2,
+      "acertos": 2,
+      "taxa_de_acerto": 1.0
+    },
+    "pdf: dados acrescentados depois do fim": {
+      "casos": 22,
+      "acertos": 22,
+      "taxa_de_acerto": 1.0
+    },
+    "pdf: número de versões salvas": {
+      "casos": 22,
+      "acertos": 22,
+      "taxa_de_acerto": 1.0
+    },
+    "pdf: texto oculto": {
+      "casos": 19,
+      "acertos": 19,
+      "taxa_de_acerto": 1.0,
+      "vp": 9,
+      "fp": 0,
+      "fn": 0,
+      "sensibilidade": 1.0,
+      "precisao": 1.0
+    },
+    "pdf: versão em que o texto aparece": {
+      "casos": 2,
+      "acertos": 2,
+      "taxa_de_acerto": 1.0
+    },
+    "pdf: versão em que o texto some": {
+      "casos": 1,
+      "acertos": 1,
+      "taxa_de_acerto": 1.0
+    },
+    "verificador de peças (verificar-peca): texto oculto no Word": {
+      "casos": 27,
+      "acertos": 27,
+      "taxa_de_acerto": 1.0,
+      "vp": 18,
+      "fp": 0,
+      "fn": 0,
+      "sensibilidade": 1.0,
+      "precisao": 1.0
+    }
+  },
+  "falhas": [
+    {
+      "metrica": "custódia: adulteração detectada (só encadeamento)",
+      "caso": "cu-truncada (só encadeamento)",
+      "descricao": "última linha da custódia apagada",
+      "esperado": "adulterada",
+      "obtido": "íntegra",
+      "lacuna_conhecida": "limite do encadeamento: apagar o FIM não deixa rastro sem a âncora do laudo"
+    },
+    {
+      "metrica": "custódia: adulteração detectada (só encadeamento)",
+      "caso": "cu-forjada-no-fim (só encadeamento)",
+      "descricao": "linha falsa acrescentada no fim, com o encadeamento recalculado",
+      "esperado": "adulterada",
+      "obtido": "íntegra",
+      "lacuna_conhecida": "limite do encadeamento: quem recalcula o hash forja o fim; só a assinatura do perito impede"
+    }
+  ]
+}
