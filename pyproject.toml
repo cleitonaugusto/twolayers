@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "twolayers"
-version = "0.19.0"
+version = "0.19.1"
 description = "Perícia de documentos lidos por IA (duas camadas: o que a pessoa vê e o que a máquina lê): texto oculto, comandos para IA, vazamento, linha do tempo e cadeia de custódia, com taxa de erro publicada"
 readme = "README.md"
 license = { file = "LICENSE" }

@@ -1,6 +1,5 @@
 """linha-do-tempo: o exemplo de perícia do README tem de continuar dizendo o que diz."""
 
-import runpy
 from pathlib import Path
 
 from twolayers.cli_linha import main
@@ -8,9 +7,8 @@ from twolayers.cli_linha import main
 EXEMPLO = Path(__file__).resolve().parents[1] / "exemplos" / "pericia-sessoes"
 
 
-def test_exemplo_word_diz_quem_foi_escondido_depois(tmp_path, capsys, monkeypatch):
-    monkeypatch.setattr("sys.argv", ["gerar.py"])
-    runpy.run_path(str(EXEMPLO / "gerar.py"))
+def test_exemplo_word_diz_quem_foi_escondido_depois(capsys):
+    # usa o arquivo versionado (não regenera: o zip mudaria a data interna e sujaria o repositório)
     assert main([str(EXEMPLO / "manifestacao_ficticia.docx")]) == 0
     saida = capsys.readouterr().out
     assert "Proposta de acordo" in saida and "escondido DEPOIS de digitado" in saida and "sessão 3 de 3" in saida

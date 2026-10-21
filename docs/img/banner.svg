@@ -1,57 +1,90 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
   <rect width="1280" height="640" fill="#e8f1fb"/>
   <g transform="translate(70,64)"><defs>
-    <clipPath id="lente"><circle cx="312" cy="214" r="44"/></clipPath>
-    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e8f1fb"/><stop offset="1" stop-color="#d6e6f7"/>
+    <radialGradient id="fundo" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#f3f8ff"/><stop offset="1" stop-color="#cfe2f7"/>
+    </radialGradient>
+    <linearGradient id="papel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f1f5fb"/>
     </linearGradient>
+    <clipPath id="lente"><circle cx="318" cy="206" r="46"/></clipPath>
+    <filter id="brilho" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
   </defs>
 
-  <!-- fundo -->
-  <circle cx="256" cy="256" r="240" fill="#ffffff" opacity="0.6"/>
+  <circle cx="256" cy="256" r="240" fill="#ffffff" opacity="0.55"/>
+  <!-- sombra no chão -->
+  <ellipse cx="258" cy="446" rx="118" ry="14" fill="#1e3a5f" opacity="0.14"/>
 
-  <!-- tufos (orelhas) -->
-  <path d="M150 150 L166 84 L214 128 Z" fill="#1e3a5f"/>
-  <path d="M362 150 L346 84 L298 128 Z" fill="#1e3a5f"/>
+  <!-- coruja levemente inclinada: dá movimento -->
+  <g transform="rotate(-5 256 290)">
+    <!-- tufos -->
+    <path d="M152 146 C150 112 158 86 170 72 C182 96 202 112 220 124 Z" fill="#1e3a5f"/>
+    <path d="M360 146 C362 112 354 86 342 72 C330 96 310 112 292 124 Z" fill="#1e3a5f"/>
 
-  <!-- corpo = folha de documento -->
-  <rect x="140" y="112" width="232" height="300" rx="46" fill="#ffffff" stroke="#1e3a5f" stroke-width="10"/>
+    <!-- corpo = folha, com a orelha dobrada no canto -->
+    <path d="M186 110 H326 A46 46 0 0 1 372 156 V356 L332 414 H186 A46 46 0 0 1 140 368 V156 A46 46 0 0 1 186 110 Z"
+          fill="url(#papel)" stroke="#1e3a5f" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M372 356 L332 414 L336 368 Z" fill="#dbe7f5" stroke="#1e3a5f" stroke-width="7" stroke-linejoin="round"/>
 
-  <!-- asas -->
-  <path d="M142 250 C104 280 106 350 146 384" fill="none" stroke="#1e3a5f" stroke-width="10" stroke-linecap="round"/>
-  <path d="M370 250 C408 280 406 350 366 384" fill="none" stroke="#1e3a5f" stroke-width="10" stroke-linecap="round"/>
+    <!-- asa esquerda, abanando -->
+    <path d="M143 250 C100 262 92 320 128 360" fill="none" stroke="#1e3a5f" stroke-width="10" stroke-linecap="round"/>
 
-  <!-- olho esquerdo: o que a pessoa vê -->
-  <circle cx="200" cy="214" r="44" fill="#ffffff" stroke="#1e3a5f" stroke-width="10"/>
-  <circle cx="204" cy="218" r="20" fill="#1e3a5f"/>
-  <circle cx="211" cy="210" r="6" fill="#ffffff"/>
+    <!-- sobrancelhas: a da lupa erguida (curiosidade) -->
+    <path d="M168 156 Q200 142 230 158" fill="none" stroke="#1e3a5f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M282 140 Q318 116 354 138" fill="none" stroke="#1e3a5f" stroke-width="8" stroke-linecap="round"/>
 
-  <!-- olho direito: lupa que mostra a camada da máquina -->
-  <line x1="344" y1="248" x2="412" y2="318" stroke="#1e3a5f" stroke-width="18" stroke-linecap="round"/>
-  <line x1="344" y1="248" x2="412" y2="318" stroke="#f2b134" stroke-width="8" stroke-linecap="round"/>
-  <g clip-path="url(#lente)">
-    <rect x="266" y="168" width="92" height="92" fill="#f8fafc"/>
-    <rect x="276" y="186" width="70" height="7" rx="3.5" fill="#94a3b8"/>
-    <rect x="276" y="200" width="56" height="7" rx="3.5" fill="#94a3b8"/>
-    <rect x="270" y="213" width="84" height="12" rx="3" fill="#fde2e1"/>
-    <rect x="276" y="216" width="64" height="6" rx="3" fill="#dc2626"/>
-    <rect x="276" y="232" width="62" height="7" rx="3.5" fill="#94a3b8"/>
+    <!-- olho comum: o que a pessoa vê -->
+    <circle cx="200" cy="206" r="40" fill="#ffffff" stroke="#1e3a5f" stroke-width="10"/>
+    <circle cx="208" cy="210" r="21" fill="#1e3a5f"/>
+    <circle cx="216" cy="201" r="7" fill="#ffffff"/>
+    <circle cx="202" cy="219" r="3" fill="#ffffff"/>
+
+    <!-- olho-lupa: o que a máquina lê -->
+    <g clip-path="url(#lente)">
+      <rect x="270" y="158" width="96" height="96" fill="#fbfdff"/>
+      <rect x="282" y="176" width="70" height="7" rx="3.5" fill="#94a3b8"/>
+      <rect x="282" y="190" width="54" height="7" rx="3.5" fill="#94a3b8"/>
+      <rect x="276" y="203" width="86" height="13" rx="4" fill="#fecaca"/>
+      <rect x="282" y="206" width="66" height="7" rx="3.5" fill="#dc2626"/>
+      <rect x="282" y="223" width="60" height="7" rx="3.5" fill="#94a3b8"/>
+      <!-- reflexo do vidro -->
+      <path d="M286 178 Q300 166 318 164" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <circle cx="318" cy="206" r="46" fill="none" stroke="#1e3a5f" stroke-width="10"/>
+    <circle cx="318" cy="206" r="54" fill="none" stroke="#f2a51a" stroke-width="7"/>
+
+    <!-- cabo da lupa, seguro pela asa direita -->
+    <line x1="356" y1="246" x2="404" y2="300" stroke="#1e3a5f" stroke-width="20" stroke-linecap="round"/>
+    <line x1="356" y1="246" x2="404" y2="300" stroke="#f2a51a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M369 250 C402 262 416 300 400 330 C388 318 380 300 382 282 Z" fill="#1e3a5f"/>
+
+    <!-- bochechas -->
+    <ellipse cx="174" cy="252" rx="15" ry="9" fill="#f9a8b4" opacity="0.75"/>
+    <ellipse cx="300" cy="266" rx="13" ry="8" fill="#f9a8b4" opacity="0.6"/>
+
+    <!-- bico com sorriso -->
+    <path d="M240 248 Q256 244 272 248 L258 272 Z" fill="#f2a51a" stroke="#1e3a5f" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M232 278 Q256 294 282 278" fill="none" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- barriga: o texto visível -->
+    <rect x="186" y="312" width="132" height="10" rx="5" fill="#c3d1e3"/>
+    <rect x="186" y="333" width="110" height="10" rx="5" fill="#c3d1e3"/>
+    <rect x="186" y="354" width="122" height="10" rx="5" fill="#c3d1e3"/>
+    <rect x="186" y="375" width="80" height="10" rx="5" fill="#c3d1e3"/>
+
+    <!-- pés -->
+    <path d="M204 412 l-11 22 M216 414 v24 M228 412 l11 22" stroke="#f2a51a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M282 412 l-11 22 M294 414 v24 M306 412 l11 22" stroke="#f2a51a" stroke-width="8" stroke-linecap="round"/>
   </g>
-  <circle cx="312" cy="214" r="44" fill="none" stroke="#1e3a5f" stroke-width="10"/>
-  <circle cx="312" cy="214" r="51" fill="none" stroke="#f2b134" stroke-width="5"/>
 
-  <!-- bico -->
-  <path d="M244 254 L268 254 L256 276 Z" fill="#f2b134" stroke="#1e3a5f" stroke-width="5" stroke-linejoin="round"/>
-
-  <!-- barriga: linhas do texto visível -->
-  <rect x="190" y="304" width="132" height="9" rx="4.5" fill="#cbd5e1"/>
-  <rect x="190" y="324" width="112" height="9" rx="4.5" fill="#cbd5e1"/>
-  <rect x="190" y="344" width="124" height="9" rx="4.5" fill="#cbd5e1"/>
-  <rect x="190" y="364" width="84" height="9" rx="4.5" fill="#cbd5e1"/>
-
-  <!-- pés -->
-  <path d="M206 410 l-10 18 M216 410 v20 M226 410 l10 18" stroke="#f2b134" stroke-width="7" stroke-linecap="round"/>
-  <path d="M286 410 l-10 18 M296 410 v20 M306 410 l10 18" stroke="#f2b134" stroke-width="7" stroke-linecap="round"/>
+  <!-- faíscas: achou! -->
+  <g fill="#f2a51a">
+    <path d="M412 132 l6 16 l16 6 l-16 6 l-6 16 l-6 -16 l-16 -6 l16 -6 Z"/>
+    <path d="M440 196 l3.5 9 l9 3.5 l-9 3.5 l-3.5 9 l-3.5 -9 l-9 -3.5 l9 -3.5 Z"/>
+    <path d="M392 92 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 Z" opacity="0.8"/>
+  </g>
 </g>
   <text x="640" y="270" font-family="DejaVu Sans, Arial, sans-serif" font-size="104" font-weight="700" fill="#1e3a5f">two<tspan fill="#c8891a">layers</tspan></text>
   <text x="644" y="340" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" fill="#334155">What a person sees.</text>
