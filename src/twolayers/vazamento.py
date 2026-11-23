@@ -243,11 +243,12 @@ def pdf(caminho: Path, texto_final: str | None = None) -> list[Achado]:
     return [v1, v2, v3, v4, v5]
 
 
-def verificar(caminho: Path, texto: str | None = None) -> list[Achado]:
-    """texto: o texto já extraído do PDF, para não ler o arquivo duas vezes."""
+def verificar(caminho: Path, texto: str | None = None, formato: str | None = None) -> list[Achado]:
+    """texto: o texto já extraído do PDF, para não ler o arquivo duas vezes. formato: o formato REAL ("pdf", "word"),
+    vindo de peca.formato_real; sem ele, cai na extensão (compatibilidade)."""
     sufixo = caminho.suffix.lower()
-    if sufixo in WORD:
+    if formato == "word" or (formato is None and sufixo in WORD):
         return docx(caminho)
-    if sufixo == ".pdf":
+    if formato == "pdf" or (formato is None and sufixo == ".pdf"):
         return pdf(caminho, texto)
     return []

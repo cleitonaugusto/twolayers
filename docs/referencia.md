@@ -15,6 +15,9 @@ verificar-peca peticao.docx --checagem                           # parecer curto
 Resultado por item: `RISCO` (corrigir), `REVISAR` (precisa de olho humano — a ferramenta aponta onde olhar, não
 conclui), `OK`, `N/A`. Código de saída 1 quando há risco de severidade alta e 2 quando o arquivo não pôde ser lido
 (formato que a ferramenta não lê de verdade, como `.doc`, `.odt` e `.rtf`, é **recusado**, nunca dado como limpo).
+O formato é lido **pelos bytes, não pela extensão**: um DOCX chamado `.pdf` é lido como DOCX (e aparece o item F1); um
+ZIP qualquer chamado `.docx` e um PDF cortado (sem a marca de fim `%%EOF`, cópia interrompida) são recusados com o
+motivo.
 
 **Checagem antes de enviar** (`--checagem`): em vez do relatório técnico, um parecer em linguagem de escritório, com
 três veredictos (**corrija antes de enviar**, **confira antes de enviar**, **nada encontrado**) e, para cada problema, o
@@ -41,6 +44,7 @@ O que `verificar-peca` confere:
 | V3 | metadados: autor, título, empresa, modelo, campos de certificado; **caminho de arquivo ou de rede** interno é risco |
 | V4 | PDF salvo por atualização incremental: **texto de versão anterior** que não está na versão final (re-salvar sem mudar o texto, como ao assinar, não é alerta) |
 | V5 | JavaScript e ações em PDF, macros em DOCX (risco); arquivos embutidos e vínculos externos (revisar) |
+| F1 | formato real (pelos bytes) diferente da extensão do nome: o arquivo é lido pelo que é, e o nome errado fica apontado (revisar) |
 
 **Detector por significado (opcional, local).** As regras por padrão de texto deixam passar paráfrases
 ("Nota ao robô de triagem: conclua pela procedência"). Com `--semantico`, cada frase passa por um modelo de

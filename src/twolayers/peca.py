@@ -325,17 +325,57 @@ class FormatoNaoSuportado(ValueError):
     """Formato que a ferramenta não sabe ler de verdade. Melhor recusar do que dizer "nada encontrado" sem ter lido."""
 
 
-def extrair(caminho: Path) -> list[Trecho]:
+def formato_real(caminho: Path) -> str:
+    """O formato pelos BYTES, não pela extensão: "pdf", "word" ou "texto". A extensão é só um apelido — um DOCX
+    chamado .pdf, um PDF chamado .docx ou um ZIP qualquer chamado .docx não podem ser lidos pelo leitor errado."""
     caminho = Path(caminho)
     sufixo = caminho.suffix.lower()
-    if sufixo == ".pdf":
-        return extrair_pdf(caminho)
-    if sufixo in WORD:
-        return extrair_docx(caminho)
+    with open(caminho, "rb") as f:
+        inicio = f.read(1024)
+    if b"%PDF-" in inicio:  # a norma aceita lixo antes do cabeçalho, dentro do 1º KB
+        with open(caminho, "rb") as f:
+            if b"%%EOF" not in f.read():
+                raise FormatoNaoSuportado("PDF incompleto: o arquivo não tem a marca de fim (%%EOF) — cópia "
+                                          "interrompida ou arquivo cortado; peça nova cópia da origem")
+        return "pdf"
+    if inicio.startswith(b"PK"):
+        try:
+            with zipfile.ZipFile(caminho) as z:
+                nomes = set(z.namelist())
+        except zipfile.BadZipFile:
+            raise FormatoNaoSuportado("começa como ZIP (PK) mas o pacote está danificado ou incompleto") from None
+        if "[Content_Types].xml" in nomes and "word/document.xml" in nomes:
+            return "word"
+        raise FormatoNaoSuportado("é um ZIP comum, não um documento do Word (não tem [Content_Types].xml e "
+                                  "word/document.xml)")
+    if inicio.startswith(b"\xd0\xcf\x11\xe0"):
+        raise FormatoNaoSuportado("é um documento do Office antigo (Word 97-2003, .doc): salve como PDF ou .docx")
+    if inicio.lstrip().startswith(b"{\\rtf"):
+        raise FormatoNaoSuportado("é RTF: salve como PDF ou .docx")
     if sufixo in TEXTO_PURO:
-        return [Trecho(caminho.read_text(encoding="utf-8", errors="replace"), 0, "")]
-    # .doc (Word 97-2003), .odt, .rtf etc.: lidos como texto, dariam lixo binário e falsos achados (ou falso "nada")
+        return "texto"
+    # .odt, imagens etc.: lidos como texto, dariam lixo binário e falsos achados (ou falso "nada")
     raise FormatoNaoSuportado(f"formato {sufixo or '(sem extensão)'} não suportado: salve como PDF ou .docx")
+
+
+def _extensao_confere(caminho: Path, formato: str) -> bool:
+    sufixo = caminho.suffix.lower()
+    return {"pdf": sufixo == ".pdf", "word": sufixo in WORD, "texto": sufixo in TEXTO_PURO}[formato]
+
+
+def extrair(caminho: Path, formato: str | None = None) -> list[Trecho]:
+    caminho = Path(caminho)
+    formato = formato or formato_real(caminho)
+    if formato == "pdf":
+        try:
+            return extrair_pdf(caminho)
+        except Exception as e:  # pdfminer: PSException/PDFSyntaxError e afins — vira recusa legível, não traceback
+            if type(e).__module__.startswith("pdfminer"):
+                raise FormatoNaoSuportado(f"PDF danificado, não consegui ler a estrutura ({e})") from e
+            raise
+    if formato == "word":
+        return extrair_docx(caminho)
+    return [Trecho(caminho.read_text(encoding="utf-8", errors="replace"), 0, "")]
 
 
 # ------------------------------------------------------------------ verificações
@@ -497,13 +537,19 @@ def injecao_semantica(achado: Achado, texto: str, detector) -> Achado:
 
 def verificar(caminho: Path, semantico=None) -> tuple[list[Achado], dict]:
     caminho = Path(caminho)
-    trechos = extrair(caminho)
+    formato = formato_real(caminho)
+    trechos = extrair(caminho, formato)
     texto = "".join(t.texto for t in trechos)
     escondido = _decodificar_tags(texto)  # instrução escrita em caracteres "tag" (invisível na tela)
     t3 = injecao(texto + "\n" + escondido, trechos, escondido)
     if semantico is not None:
         t3 = injecao_semantica(t3, texto + "\n" + escondido, semantico)
     achados = [texto_oculto(trechos), invisiveis(texto), t3, numeros_cnj(texto), sumulas(texto), precedentes(texto)]
-    achados += vazamento.verificar(caminho, texto)
+    achados += vazamento.verificar(caminho, texto, formato)
+    if not _extensao_confere(caminho, formato):
+        nome = {"pdf": "PDF", "word": "documento do Word (DOCX)", "texto": "texto puro"}[formato]
+        achados.append(Achado("F1", "M", REVISAR, "Formato real diferente da extensão",
+                              [f"o nome termina em {caminho.suffix or '(sem extensão)'}, mas o conteúdo é {nome}; "
+                               "lido como " + nome]))
     info = {"paginas": max((t.pagina for t in trechos), default=0), "caracteres": len(texto)}
     return achados, info

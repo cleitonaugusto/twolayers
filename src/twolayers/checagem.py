@@ -11,7 +11,7 @@ from .achados import REVISAR, RISCO, Achado
 CORRIJA, CONFIRA, NADA = "CORRIJA ANTES DE ENVIAR", "CONFIRA ANTES DE ENVIAR", "NADA ENCONTRADO"
 
 # primeiro o que leva a multa (recado escondido para IA), depois o que vaza sigilo, por último as citações
-PRIORIDADE = ["T3", "T1", "T2", "V1", "V2", "V4", "V3", "V5", "C1", "C2", "C3"]
+PRIORIDADE = ["T3", "T1", "T2", "V1", "V2", "V4", "V3", "V5", "C1", "C2", "C3", "F1"]
 
 # o que fazer, por item, quando há RISCO
 CORRIGIR = {
@@ -44,6 +44,8 @@ CONFERIR = {
     "V1": "Há inserções rastreadas ainda não aceitas. Aceite-as antes de enviar.",
     "V3": "O arquivo leva autor, título ou empresa nos metadados. Confira se essas informações podem sair do escritório.",
     "V5": "O arquivo tem arquivos embutidos ou vínculos externos. Confira se devem ir junto.",
+    "F1": "A extensão do nome não corresponde ao formato real do arquivo. Corrija o nome antes de enviar: o sistema "
+          "de destino pode recusar ou abrir com o programa errado.",
 }
 
 
